@@ -1,0 +1,85 @@
+# SPA VIP - Requirements converted from environment.yml
+# Install with: pip install -r requirements_from_yml.txt
+
+# Core Python packages
+numpy==2.0.2
+pandas==2.2.3
+python-dateutil==2.9.0
+pytz==2024.1
+tqdm==4.67.1
+
+# Database requirements
+supabase==2.17.0
+python-dotenv==1.1.0
+psycopg2-binary==2.9.10
+sqlalchemy==2.0.42
+
+# Web scraping and crawling
+selenium==4.33.0
+beautifulsoup4==4.13.4
+requests==2.32.3
+webdriver-manager==4.0.2
+undetected-chromedriver==3.5.5
+playwright==1.52.0
+
+# AI/ML Libraries
+torch==2.8.0
+transformers==4.55.0
+sentencepiece==0.2.0
+tensorflow==2.19.0
+scikit-learn==1.6.1
+huggingface-hub==0.34.4
+
+# Web framework
+fastapi==0.112.2
+uvicorn==0.35.0
+flask==3.1.0
+flask-cors==6.0.1
+starlette==0.38.2
+
+# Data processing and analysis
+matplotlib==3.9.4
+seaborn==0.13.2
+plotly==6.2.0
+openpyxl==3.1.5
+xlsxwriter==3.2.5
+
+# Utility packages
+pydantic==2.11.7
+click==8.1.8
+colorama==0.4.6
+deprecation==2.1.0
+filelock==3.18.0
+jsonschema==4.24.0
+tabulate==0.9.0
+rich==14.0.0
+
+# Additional specific packages from pip section
+absl-py==2.3.1
+annotated-types==0.7.0
+anyio==4.9.0
+attrs==25.3.0
+certifi==2025.4.26
+charset-normalizer==3.4.2
+idna==3.10
+urllib3==2.4.0
+websocket-client==1.8.0
+websockets==15.0.1
+
+# Google AI packages
+google-generativeai==0.8.5
+google-auth==2.40.2
+google-api-python-client==2.170.0
+
+# MongoDB support
+pymongo==4.13.0
+
+# Jupyter support (if needed)
+ipython==8.18.1
+ipykernel==6.29.5
+jupyter-client==8.6.3
+jupyter-core==5.8.0
+
+# Additional utilities
+feedparser==6.0.11
+lxml>=4.9.0
