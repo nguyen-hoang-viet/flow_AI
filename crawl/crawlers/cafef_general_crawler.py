@@ -56,9 +56,11 @@ def insert_to_supabase(db_manager, table_name, data):
 
 def setup_driver():
     options = Options()
+    options.add_argument("--headless")  # Tắt hiển thị Chrome
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
-    options.add_argument("--start-maximized")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--window-size=1920,1080")
     return webdriver.Chrome(options=options)
 
 def extract_article_data(driver):
