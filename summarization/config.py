@@ -46,7 +46,7 @@ class Config:
     SUPABASE_KEY = os.getenv("SUPABASE_KEY", DEFAULT_SUPABASE_KEY)
     
     # Model paths - hardcode path for now 
-    MODEL_PATH = r"model_AI\summarization_model\model_vit5"
+    MODEL_PATH = r"model_AI/summarization_model/model_vit5"
     
     # Text processing
     MAX_INPUT_LENGTH = int(os.getenv("MAX_INPUT_LENGTH", 1024))
