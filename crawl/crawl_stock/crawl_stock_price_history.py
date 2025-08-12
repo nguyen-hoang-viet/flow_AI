@@ -149,15 +149,31 @@ def upsert_stock_data(db_manager, table_name, row):
         print(f"   Dữ liệu: {row}")
 
 def setup_driver():
-    """Setup Chrome driver với các options tối ưu"""
+    """Setup Chrome driver với các options tối ưu cho VPS"""
     options = Options()
+    # VPS-optimized Chrome options
     options.add_argument("--headless")  # Chạy ẩn browser
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
+    options.add_argument("--disable-features=VizDisplayCompositor")
+    options.add_argument("--disable-extensions")
+    options.add_argument("--disable-plugins")
     options.add_argument("--window-size=1920,1080")
+    options.add_argument("--user-agent=Mozilla/5.0 (Linux; x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
     
-    return webdriver.Chrome(options=options)
+    # Memory optimization
+    options.add_argument("--memory-pressure-off")
+    options.add_argument("--max_old_space_size=4096")
+    
+    try:
+        return webdriver.Chrome(options=options)
+    except Exception as e:
+        print(f"❌ Lỗi tạo Chrome driver: {e}")
+        print("💡 Đảm bảo ChromeDriver đã được cài đặt:")
+        print("   sudo apt install google-chrome-stable")
+        print("   sudo apt install chromium-chromedriver")
+        raise
 
 # 🔹 Crawl từng trang và lưu ngay vào Supabase
 def crawl_and_save_stock(stock_code, max_pages=5):

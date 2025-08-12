@@ -69,12 +69,30 @@ def normalize_date_only(raw_text):
 # 🔹 Crawl dữ liệu từ Chungta.vn
 def crawl_chungta(url):
     options = Options()
+    # VPS-optimized Chrome options
     options.add_argument("--headless")  # Tắt hiển thị Chrome
-    options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--disable-features=VizDisplayCompositor")
+    options.add_argument("--disable-extensions")
+    options.add_argument("--disable-plugins")
+    options.add_argument("--disable-images")  # Tải nhanh hơn
     options.add_argument("--window-size=1920,1080")
-    driver = webdriver.Chrome(options=options)
+    options.add_argument("--user-agent=Mozilla/5.0 (Linux; x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+    
+    # Memory optimization
+    options.add_argument("--memory-pressure-off")
+    options.add_argument("--max_old_space_size=4096")
+    
+    try:
+        driver = webdriver.Chrome(options=options)
+    except Exception as e:
+        print(f"❌ Lỗi tạo Chrome driver: {e}")
+        print("💡 Đảm bảo ChromeDriver đã được cài đặt:")
+        print("   sudo apt install google-chrome-stable")
+        print("   sudo apt install chromium-chromedriver")
+        raise
 
     driver.get(url)
     wait = WebDriverWait(driver, 10)
