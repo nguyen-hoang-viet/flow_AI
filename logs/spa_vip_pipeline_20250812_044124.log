@@ -1,0 +1,317 @@
+2025-08-12 04:41:24,843 - INFO - 🚀 SPA VIP Pipeline initialized
+2025-08-12 04:41:25,534 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 04:41:26,252 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=id&limit=1 "HTTP/2 200 OK"
+2025-08-12 04:41:26,252 - INFO - ✅ Connection test passed for General_News
+2025-08-12 04:41:26,352 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=id&limit=1 "HTTP/2 200 OK"
+2025-08-12 04:41:26,353 - INFO - ✅ Connection test passed for FPT_News
+2025-08-12 04:41:26,534 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=id&limit=1 "HTTP/2 200 OK"
+2025-08-12 04:41:26,534 - INFO - ✅ Connection test passed for GAS_News
+2025-08-12 04:41:26,701 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=id&limit=1 "HTTP/2 200 OK"
+2025-08-12 04:41:26,701 - INFO - ✅ Connection test passed for IMP_News
+2025-08-12 04:41:26,808 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_News?select=id&limit=1 "HTTP/2 200 OK"
+2025-08-12 04:41:26,809 - INFO - ✅ Connection test passed for VCB_News
+2025-08-12 04:41:26,809 - INFO - ✅ All database connections working properly
+2025-08-12 04:41:26,809 - INFO - ✅ Database connection established
+2025-08-12 04:41:26,810 - INFO - 
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2025-08-12 04:41:26,810 - INFO - 🚀 STARTING SPA VIP FULL PIPELINE
+2025-08-12 04:41:26,811 - INFO - 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2025-08-12 04:41:26,811 - INFO - ⏰ Start time: 2025-08-12 04:41:26
+2025-08-12 04:41:26,811 - INFO - 
+🗞️  PHASE 1: NEWS CRAWLING
+2025-08-12 04:41:26,811 - INFO - ==================================================
+2025-08-12 04:41:28,205 - INFO - 🔄 Running all crawlers...
+2025-08-12 04:41:28,205 - INFO - ==================================================
+2025-08-12 04:41:28,205 - INFO - BAT DAU CRAWLING SESSION
+2025-08-12 04:41:28,205 - INFO - ==================================================
+2025-08-12 04:41:28,205 - INFO - Thoi gian bat dau: 2025-08-12 04:41:28
+2025-08-12 04:41:28,205 - INFO - === STOCK PRICE CRAWLER ===
+2025-08-12 04:41:28,205 - INFO - [START] Bắt đầu Stock Price Crawler
+2025-08-12 04:41:29,932 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 04:41:37,115 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-11 "HTTP/2 200 OK"
+2025-08-12 04:41:37,224 - INFO - HTTP Request: PATCH https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?date=eq.2025-08-11 "HTTP/2 200 OK"
+2025-08-12 04:41:37,559 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-08 "HTTP/2 200 OK"
+2025-08-12 04:41:37,727 - INFO - HTTP Request: PATCH https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?date=eq.2025-08-08 "HTTP/2 200 OK"
+2025-08-12 04:41:38,060 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-07 "HTTP/2 200 OK"
+2025-08-12 04:41:38,234 - INFO - HTTP Request: PATCH https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?date=eq.2025-08-07 "HTTP/2 200 OK"
+2025-08-12 04:41:38,596 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-06 "HTTP/2 200 OK"
+2025-08-12 04:41:38,691 - INFO - HTTP Request: PATCH https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?date=eq.2025-08-06 "HTTP/2 200 OK"
+2025-08-12 04:41:39,019 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-05 "HTTP/2 200 OK"
+2025-08-12 04:41:39,387 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-04 "HTTP/2 200 OK"
+2025-08-12 04:41:39,740 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-01 "HTTP/2 200 OK"
+2025-08-12 04:41:40,092 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-31 "HTTP/2 200 OK"
+2025-08-12 04:41:40,496 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-30 "HTTP/2 200 OK"
+2025-08-12 04:41:40,826 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-29 "HTTP/2 200 OK"
+2025-08-12 04:41:41,233 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-28 "HTTP/2 200 OK"
+2025-08-12 04:41:41,648 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-25 "HTTP/2 200 OK"
+2025-08-12 04:41:42,055 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-24 "HTTP/2 200 OK"
+2025-08-12 04:41:42,411 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-23 "HTTP/2 200 OK"
+2025-08-12 04:41:42,761 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-22 "HTTP/2 200 OK"
+2025-08-12 04:41:43,147 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-21 "HTTP/2 200 OK"
+2025-08-12 04:41:43,575 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-18 "HTTP/2 200 OK"
+2025-08-12 04:41:43,940 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-17 "HTTP/2 200 OK"
+2025-08-12 04:41:44,303 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-16 "HTTP/2 200 OK"
+2025-08-12 04:41:44,631 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-15 "HTTP/2 200 OK"
+2025-08-12 04:41:44,971 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-14 "HTTP/2 200 OK"
+2025-08-12 04:41:45,295 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-11 "HTTP/2 200 OK"
+2025-08-12 04:41:45,644 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-10 "HTTP/2 200 OK"
+2025-08-12 04:41:45,977 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-09 "HTTP/2 200 OK"
+2025-08-12 04:41:46,335 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-08 "HTTP/2 200 OK"
+2025-08-12 04:41:46,680 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-07 "HTTP/2 200 OK"
+2025-08-12 04:41:47,024 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-04 "HTTP/2 200 OK"
+2025-08-12 04:41:47,368 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-03 "HTTP/2 200 OK"
+2025-08-12 04:41:47,689 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-02 "HTTP/2 200 OK"
+2025-08-12 04:41:48,047 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-01 "HTTP/2 200 OK"
+2025-08-12 04:41:50,270 - INFO - 🔒 Supabase connections are managed automatically
+2025-08-12 04:41:57,092 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 04:42:04,499 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-11 "HTTP/2 200 OK"
+2025-08-12 04:42:04,688 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:05,115 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-08 "HTTP/2 200 OK"
+2025-08-12 04:42:05,291 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:05,697 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-07 "HTTP/2 200 OK"
+2025-08-12 04:42:05,797 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:06,200 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-06 "HTTP/2 200 OK"
+2025-08-12 04:42:06,379 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:06,783 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-05 "HTTP/2 200 OK"
+2025-08-12 04:42:06,881 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:07,324 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-04 "HTTP/2 200 OK"
+2025-08-12 04:42:07,427 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:07,775 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-01 "HTTP/2 200 OK"
+2025-08-12 04:42:07,878 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:08,246 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-31 "HTTP/2 200 OK"
+2025-08-12 04:42:08,441 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:08,875 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-30 "HTTP/2 200 OK"
+2025-08-12 04:42:09,009 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:09,377 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-29 "HTTP/2 200 OK"
+2025-08-12 04:42:09,534 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:09,944 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-28 "HTTP/2 200 OK"
+2025-08-12 04:42:10,036 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:10,592 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-25 "HTTP/2 200 OK"
+2025-08-12 04:42:10,684 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:11,091 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-24 "HTTP/2 200 OK"
+2025-08-12 04:42:11,188 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:11,512 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-23 "HTTP/2 200 OK"
+2025-08-12 04:42:11,607 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:12,051 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-22 "HTTP/2 200 OK"
+2025-08-12 04:42:12,148 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:12,515 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-21 "HTTP/2 200 OK"
+2025-08-12 04:42:12,609 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:12,969 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-18 "HTTP/2 200 OK"
+2025-08-12 04:42:13,054 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:13,380 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-17 "HTTP/2 200 OK"
+2025-08-12 04:42:13,468 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:13,891 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-16 "HTTP/2 200 OK"
+2025-08-12 04:42:13,983 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:14,315 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-15 "HTTP/2 200 OK"
+2025-08-12 04:42:14,402 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:14,743 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-14 "HTTP/2 200 OK"
+2025-08-12 04:42:14,835 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:15,204 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-11 "HTTP/2 200 OK"
+2025-08-12 04:42:15,298 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:15,648 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-10 "HTTP/2 200 OK"
+2025-08-12 04:42:15,741 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:16,102 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-09 "HTTP/2 200 OK"
+2025-08-12 04:42:16,192 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:16,516 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-08 "HTTP/2 200 OK"
+2025-08-12 04:42:16,611 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:16,957 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-07 "HTTP/2 200 OK"
+2025-08-12 04:42:17,049 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:17,464 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-04 "HTTP/2 200 OK"
+2025-08-12 04:42:17,555 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:17,948 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-03 "HTTP/2 200 OK"
+2025-08-12 04:42:18,112 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:18,452 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-02 "HTTP/2 200 OK"
+2025-08-12 04:42:18,539 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:18,895 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-01 "HTTP/2 200 OK"
+2025-08-12 04:42:18,992 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:21,250 - INFO - 🔒 Supabase connections are managed automatically
+2025-08-12 04:42:28,147 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 04:42:35,797 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-08-11 "HTTP/2 200 OK"
+2025-08-12 04:42:35,892 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:36,299 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-08-08 "HTTP/2 200 OK"
+2025-08-12 04:42:36,396 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:36,731 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-08-07 "HTTP/2 200 OK"
+2025-08-12 04:42:36,824 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:37,228 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-08-06 "HTTP/2 200 OK"
+2025-08-12 04:42:37,335 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:37,701 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-08-05 "HTTP/2 200 OK"
+2025-08-12 04:42:37,791 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:38,147 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-08-04 "HTTP/2 200 OK"
+2025-08-12 04:42:38,247 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:38,604 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-08-01 "HTTP/2 200 OK"
+2025-08-12 04:42:38,691 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:39,080 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-31 "HTTP/2 200 OK"
+2025-08-12 04:42:39,174 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:39,610 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-30 "HTTP/2 200 OK"
+2025-08-12 04:42:39,707 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:40,118 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-29 "HTTP/2 200 OK"
+2025-08-12 04:42:40,236 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:40,872 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-28 "HTTP/2 200 OK"
+2025-08-12 04:42:41,030 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:41,516 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-25 "HTTP/2 200 OK"
+2025-08-12 04:42:41,620 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:42,128 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-24 "HTTP/2 200 OK"
+2025-08-12 04:42:42,224 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:42,568 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-23 "HTTP/2 200 OK"
+2025-08-12 04:42:42,667 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:43,011 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-22 "HTTP/2 200 OK"
+2025-08-12 04:42:43,108 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:43,452 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-21 "HTTP/2 200 OK"
+2025-08-12 04:42:43,549 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:43,892 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-18 "HTTP/2 200 OK"
+2025-08-12 04:42:43,983 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:44,356 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-17 "HTTP/2 200 OK"
+2025-08-12 04:42:44,449 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:44,804 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-16 "HTTP/2 200 OK"
+2025-08-12 04:42:44,905 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:45,283 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-15 "HTTP/2 200 OK"
+2025-08-12 04:42:45,379 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:45,721 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-14 "HTTP/2 200 OK"
+2025-08-12 04:42:45,815 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:46,163 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-11 "HTTP/2 200 OK"
+2025-08-12 04:42:46,260 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:46,599 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-10 "HTTP/2 200 OK"
+2025-08-12 04:42:46,697 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:47,082 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-09 "HTTP/2 200 OK"
+2025-08-12 04:42:47,179 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:47,569 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-08 "HTTP/2 200 OK"
+2025-08-12 04:42:47,667 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:48,012 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-07 "HTTP/2 200 OK"
+2025-08-12 04:42:48,104 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:48,444 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-04 "HTTP/2 200 OK"
+2025-08-12 04:42:48,540 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:48,934 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-03 "HTTP/2 200 OK"
+2025-08-12 04:42:49,028 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:49,370 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-02 "HTTP/2 200 OK"
+2025-08-12 04:42:49,454 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:49,787 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-01 "HTTP/2 200 OK"
+2025-08-12 04:42:49,885 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:42:52,074 - INFO - 🔒 Supabase connections are managed automatically
+2025-08-12 04:42:59,121 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 04:43:05,124 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-08-11 "HTTP/2 200 OK"
+2025-08-12 04:43:05,224 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:05,667 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-08-08 "HTTP/2 200 OK"
+2025-08-12 04:43:05,772 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:06,195 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-08-07 "HTTP/2 200 OK"
+2025-08-12 04:43:06,304 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:06,788 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-08-06 "HTTP/2 200 OK"
+2025-08-12 04:43:06,884 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:07,328 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-08-05 "HTTP/2 200 OK"
+2025-08-12 04:43:07,431 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:07,787 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-08-04 "HTTP/2 200 OK"
+2025-08-12 04:43:07,883 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:08,276 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-08-01 "HTTP/2 200 OK"
+2025-08-12 04:43:08,372 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:08,757 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-31 "HTTP/2 200 OK"
+2025-08-12 04:43:08,855 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:09,240 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-30 "HTTP/2 200 OK"
+2025-08-12 04:43:09,337 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:09,737 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-29 "HTTP/2 200 OK"
+2025-08-12 04:43:09,832 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:10,346 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-28 "HTTP/2 200 OK"
+2025-08-12 04:43:10,436 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:10,852 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-25 "HTTP/2 200 OK"
+2025-08-12 04:43:10,943 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:11,357 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-24 "HTTP/2 200 OK"
+2025-08-12 04:43:11,462 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:11,822 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-23 "HTTP/2 200 OK"
+2025-08-12 04:43:11,928 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:12,565 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-22 "HTTP/2 200 OK"
+2025-08-12 04:43:12,662 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:13,068 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-21 "HTTP/2 200 OK"
+2025-08-12 04:43:13,160 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:13,530 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-18 "HTTP/2 200 OK"
+2025-08-12 04:43:13,627 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:13,976 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-17 "HTTP/2 200 OK"
+2025-08-12 04:43:14,071 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:14,420 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-16 "HTTP/2 200 OK"
+2025-08-12 04:43:14,511 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:14,859 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-15 "HTTP/2 200 OK"
+2025-08-12 04:43:14,952 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:15,400 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-14 "HTTP/2 200 OK"
+2025-08-12 04:43:15,492 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:15,832 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-11 "HTTP/2 200 OK"
+2025-08-12 04:43:15,924 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:16,276 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-10 "HTTP/2 200 OK"
+2025-08-12 04:43:16,363 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:16,695 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-09 "HTTP/2 200 OK"
+2025-08-12 04:43:16,787 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:17,146 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-08 "HTTP/2 200 OK"
+2025-08-12 04:43:17,239 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:17,696 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-07 "HTTP/2 200 OK"
+2025-08-12 04:43:17,791 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:18,245 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-04 "HTTP/2 200 OK"
+2025-08-12 04:43:18,336 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:18,714 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-03 "HTTP/2 200 OK"
+2025-08-12 04:43:18,803 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:19,145 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-02 "HTTP/2 200 OK"
+2025-08-12 04:43:19,236 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:19,579 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-01 "HTTP/2 200 OK"
+2025-08-12 04:43:19,672 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock "HTTP/2 401 Unauthorized"
+2025-08-12 04:43:21,923 - INFO - 🔒 Supabase connections are managed automatically
+2025-08-12 04:43:26,925 - INFO - [SUCCESS] Stock Price Crawler hoàn thành trong 0:01:58.720142
+2025-08-12 04:43:28,925 - INFO - === FIREANT CRAWLERS ===
+2025-08-12 04:43:28,925 - INFO - [START] Bắt đầu FireAnt FPT Stock
+2025-08-12 04:43:29,470 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 04:43:39,308 - WARNING - Nguoi dung dung crawling session
+2025-08-12 04:43:39,308 - INFO - 
+============================================================
+2025-08-12 04:43:39,308 - INFO - TONG KET CRAWLING SESSION
+2025-08-12 04:43:39,308 - INFO - ============================================================
+2025-08-12 04:43:39,308 - INFO - Tong thoi gian: 0:02:11.103419
+2025-08-12 04:43:39,308 - INFO - Thanh cong: 1
+2025-08-12 04:43:39,308 - INFO - That bai: 0
+2025-08-12 04:43:39,311 - INFO - Tong crawler: 2
+2025-08-12 04:43:39,313 - INFO - 
+Chi tiet tung crawler:
+2025-08-12 04:43:39,313 - INFO - [OK] Stock Price Crawler: 0:01:58.720142
+2025-08-12 04:43:39,313 - INFO - [FAIL] FireAnt FPT Stock: N/A
+2025-08-12 04:43:39,313 - INFO - ✅ Crawling phase completed in 2.2 minutes
+2025-08-12 04:43:39,315 - INFO - ⏸️ Waiting 10 seconds between phases...
+2025-08-12 04:43:39,551 - WARNING - ⚠️ Pipeline interrupted by user
+2025-08-12 04:43:39,552 - INFO - 
+================================================================================
+2025-08-12 04:43:39,552 - INFO - 📋 PIPELINE EXECUTION SUMMARY
+2025-08-12 04:43:39,552 - INFO - ================================================================================
+2025-08-12 04:43:39,553 - INFO - ⏱️ Total execution time: 2.2 minutes
+2025-08-12 04:43:39,553 - INFO - 
+2025-08-12 04:43:39,553 - INFO - 🗞️ CRAWLING PHASE: ✅ SUCCESS (2.2 min)
+2025-08-12 04:43:39,553 - INFO -    📊 Successful crawlers: 1/1
+2025-08-12 04:43:39,554 - INFO - 
+2025-08-12 04:43:39,554 - INFO - 🎯 FINAL STATUS:
+2025-08-12 04:43:39,555 - INFO - 
+================================================================================
+2025-08-12 04:43:39,555 - INFO - 📊 SPA VIP SYSTEM STATUS
+2025-08-12 04:43:39,556 - INFO - ================================================================================
+2025-08-12 04:43:39,809 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:43:39,988 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:43:40,083 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=%2A&industry=not.is.null&industry=neq.&ai_summary=not.is.null&ai_summary=neq. "HTTP/2 200 OK"
+2025-08-12 04:43:40,242 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:43:40,424 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:43:40,516 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:43:40,692 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:43:40,783 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:43:40,874 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:43:40,973 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:43:41,055 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:43:41,055 - INFO - 📰 Total Articles: 0
+2025-08-12 04:43:41,055 - INFO - 🤖 AI Summarized: 0
+2025-08-12 04:43:41,055 - INFO - 🏭 Industry Classified: 0
+2025-08-12 04:43:41,055 - INFO - ⏳ Pending Summary: 0
+2025-08-12 04:43:41,055 - INFO - ⏳ Pending Classification: 0
+2025-08-12 04:43:41,055 - INFO - 📈 Summary Rate: 0.0%
+2025-08-12 04:43:41,055 - INFO - 🏭 Classification Rate: 0.0%
+2025-08-12 04:43:41,055 - INFO - 
+2025-08-12 04:43:41,070 - INFO - 📋 TABLE BREAKDOWN:
+2025-08-12 04:43:41,070 - INFO - --------------------------------------------------------------------------------
+2025-08-12 04:43:41,071 - INFO - Table           Total    Summary  Industry   S-Rate   I-Rate  
+2025-08-12 04:43:41,071 - INFO - --------------------------------------------------------------------------------
+2025-08-12 04:43:41,072 - INFO - General_News    0        0        0          100.0%    0.0%
+2025-08-12 04:43:41,072 - INFO - FPT_News        0        0        0          100.0%    0.0%
+2025-08-12 04:43:41,072 - INFO - GAS_News        0        0        0          100.0%    0.0%
+2025-08-12 04:43:41,072 - INFO - IMP_News        0        0        0          100.0%    0.0%
+2025-08-12 04:43:41,072 - INFO - VCB_News        0        0        0          100.0%    0.0%
+2025-08-12 04:43:41,072 - INFO - ================================================================================
+2025-08-12 04:43:41,072 - INFO - 
+🎉 PIPELINE EXECUTION COMPLETED!
+2025-08-12 04:43:41,072 - INFO - ================================================================================

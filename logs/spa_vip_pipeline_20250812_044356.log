@@ -1,0 +1,134 @@
+2025-08-12 04:43:56,409 - INFO - 🚀 SPA VIP Pipeline initialized
+2025-08-12 04:43:57,247 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 04:43:58,048 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=id&limit=1 "HTTP/2 200 OK"
+2025-08-12 04:43:58,051 - INFO - ✅ Connection test passed for General_News
+2025-08-12 04:43:58,148 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=id&limit=1 "HTTP/2 200 OK"
+2025-08-12 04:43:58,149 - INFO - ✅ Connection test passed for FPT_News
+2025-08-12 04:43:58,243 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=id&limit=1 "HTTP/2 200 OK"
+2025-08-12 04:43:58,249 - INFO - ✅ Connection test passed for GAS_News
+2025-08-12 04:43:58,340 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=id&limit=1 "HTTP/2 200 OK"
+2025-08-12 04:43:58,341 - INFO - ✅ Connection test passed for IMP_News
+2025-08-12 04:43:58,434 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_News?select=id&limit=1 "HTTP/2 200 OK"
+2025-08-12 04:43:58,435 - INFO - ✅ Connection test passed for VCB_News
+2025-08-12 04:43:58,435 - INFO - ✅ All database connections working properly
+2025-08-12 04:43:58,436 - INFO - ✅ Database connection established
+2025-08-12 04:43:58,436 - INFO - 
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2025-08-12 04:43:58,436 - INFO - 🚀 STARTING SPA VIP FULL PIPELINE
+2025-08-12 04:43:58,436 - INFO - 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2025-08-12 04:43:58,437 - INFO - ⏰ Start time: 2025-08-12 04:43:58
+2025-08-12 04:43:58,437 - INFO - 
+🗞️  PHASE 1: NEWS CRAWLING
+2025-08-12 04:43:58,437 - INFO - ==================================================
+2025-08-12 04:43:59,657 - INFO - 🔄 Running all crawlers...
+2025-08-12 04:43:59,657 - INFO - ==================================================
+2025-08-12 04:43:59,657 - INFO - BAT DAU CRAWLING SESSION
+2025-08-12 04:43:59,657 - INFO - ==================================================
+2025-08-12 04:43:59,657 - INFO - Thoi gian bat dau: 2025-08-12 04:43:59
+2025-08-12 04:43:59,657 - INFO - === STOCK PRICE CRAWLER ===
+2025-08-12 04:43:59,657 - INFO - [START] Bắt đầu Stock Price Crawler
+2025-08-12 04:44:01,345 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 04:44:08,532 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-11 "HTTP/2 200 OK"
+2025-08-12 04:44:08,884 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-08 "HTTP/2 200 OK"
+2025-08-12 04:44:09,212 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-07 "HTTP/2 200 OK"
+2025-08-12 04:44:09,547 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-06 "HTTP/2 200 OK"
+2025-08-12 04:44:09,883 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-05 "HTTP/2 200 OK"
+2025-08-12 04:44:10,213 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-04 "HTTP/2 200 OK"
+2025-08-12 04:44:10,552 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-01 "HTTP/2 200 OK"
+2025-08-12 04:44:10,896 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-31 "HTTP/2 200 OK"
+2025-08-12 04:44:11,278 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-30 "HTTP/2 200 OK"
+2025-08-12 04:44:11,644 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-29 "HTTP/2 200 OK"
+2025-08-12 04:44:11,985 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-28 "HTTP/2 200 OK"
+2025-08-12 04:44:12,364 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-25 "HTTP/2 200 OK"
+2025-08-12 04:44:12,828 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-24 "HTTP/2 200 OK"
+2025-08-12 04:44:13,219 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-23 "HTTP/2 200 OK"
+2025-08-12 04:44:13,657 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-22 "HTTP/2 200 OK"
+2025-08-12 04:44:14,104 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-21 "HTTP/2 200 OK"
+2025-08-12 04:44:14,488 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-18 "HTTP/2 200 OK"
+2025-08-12 04:44:14,844 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-17 "HTTP/2 200 OK"
+2025-08-12 04:44:15,184 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-16 "HTTP/2 200 OK"
+2025-08-12 04:44:15,536 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-15 "HTTP/2 200 OK"
+2025-08-12 04:44:15,876 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-14 "HTTP/2 200 OK"
+2025-08-12 04:44:16,196 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-11 "HTTP/2 200 OK"
+2025-08-12 04:44:16,536 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-10 "HTTP/2 200 OK"
+2025-08-12 04:44:16,860 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-09 "HTTP/2 200 OK"
+2025-08-12 04:44:17,212 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-08 "HTTP/2 200 OK"
+2025-08-12 04:44:17,620 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-07 "HTTP/2 200 OK"
+2025-08-12 04:44:17,968 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-04 "HTTP/2 200 OK"
+2025-08-12 04:44:18,306 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-03 "HTTP/2 200 OK"
+2025-08-12 04:44:18,644 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-02 "HTTP/2 200 OK"
+2025-08-12 04:44:18,973 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-01 "HTTP/2 200 OK"
+2025-08-12 04:44:21,175 - INFO - 🔒 Supabase connections are managed automatically
+2025-08-12 04:44:27,772 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 04:44:34,856 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-11 "HTTP/2 200 OK"
+2025-08-12 04:44:34,964 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 400 Bad Request"
+2025-08-12 04:44:35,272 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-08 "HTTP/2 200 OK"
+2025-08-12 04:44:35,359 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 400 Bad Request"
+2025-08-12 04:44:35,700 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-07 "HTTP/2 200 OK"
+2025-08-12 04:44:35,788 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 400 Bad Request"
+2025-08-12 04:44:36,136 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-06 "HTTP/2 200 OK"
+2025-08-12 04:44:36,232 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 400 Bad Request"
+2025-08-12 04:44:36,551 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-05 "HTTP/2 200 OK"
+2025-08-12 04:44:36,640 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 400 Bad Request"
+2025-08-12 04:44:36,963 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-04 "HTTP/2 200 OK"
+2025-08-12 04:44:37,055 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 400 Bad Request"
+2025-08-12 04:44:37,384 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-01 "HTTP/2 200 OK"
+2025-08-12 04:44:37,468 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 400 Bad Request"
+2025-08-12 04:44:37,819 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-31 "HTTP/2 200 OK"
+2025-08-12 04:44:37,903 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 400 Bad Request"
+2025-08-12 04:44:38,220 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-30 "HTTP/2 200 OK"
+2025-08-12 04:44:38,305 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 400 Bad Request"
+2025-08-12 04:44:38,720 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-29 "HTTP/2 200 OK"
+2025-08-12 04:44:38,808 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 400 Bad Request"
+2025-08-12 04:44:39,113 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-28 "HTTP/2 200 OK"
+2025-08-12 04:44:39,200 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 400 Bad Request"
+2025-08-12 04:44:39,544 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-25 "HTTP/2 200 OK"
+2025-08-12 04:44:39,632 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 400 Bad Request"
+2025-08-12 04:44:39,966 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-24 "HTTP/2 200 OK"
+2025-08-12 04:44:40,067 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 400 Bad Request"
+2025-08-12 04:44:40,138 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/3c0484999923907875bb780aecfca65b
+2025-08-12 04:44:42,154 - WARNING - Nguoi dung dung crawling session
+2025-08-12 04:44:42,154 - INFO - 
+============================================================
+2025-08-12 04:44:42,154 - INFO - TONG KET CRAWLING SESSION
+2025-08-12 04:44:42,154 - INFO - ============================================================
+2025-08-12 04:44:42,154 - INFO - Tong thoi gian: 0:00:42.497381
+2025-08-12 04:44:42,156 - INFO - Thanh cong: 0
+2025-08-12 04:44:42,156 - INFO - That bai: 0
+2025-08-12 04:44:42,156 - INFO - Tong crawler: 1
+2025-08-12 04:44:42,156 - INFO - 
+Chi tiet tung crawler:
+2025-08-12 04:44:42,157 - INFO - [FAIL] Stock Price Crawler: N/A
+2025-08-12 04:44:42,157 - INFO - ✅ Crawling phase completed in 0.7 minutes
+2025-08-12 04:44:42,157 - INFO - ⏸️ Waiting 10 seconds between phases...
+2025-08-12 04:44:52,158 - INFO - 
+🤖 PHASE 2: AI SUMMARIZATION
+2025-08-12 04:44:52,158 - INFO - ==================================================
+2025-08-12 04:45:05,661 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 04:45:05,677 - INFO - Enhanced Summarization Pipeline initialized
+2025-08-12 04:45:05,677 - INFO - DATABASE STATISTICS
+2025-08-12 04:45:05,677 - INFO - ==================================================
+2025-08-12 04:45:06,756 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:45:07,515 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:45:08,571 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=%2A&industry=not.is.null&industry=neq.&ai_summary=not.is.null&ai_summary=neq. "HTTP/2 200 OK"
+2025-08-12 04:45:09,672 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:45:10,168 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:45:10,593 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:45:10,829 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 04:45:11,042 - WARNING - ⚠️ Pipeline interrupted by user
+2025-08-12 04:45:11,042 - INFO - 
+================================================================================
+2025-08-12 04:45:11,042 - INFO - 📋 PIPELINE EXECUTION SUMMARY
+2025-08-12 04:45:11,042 - INFO - ================================================================================
+2025-08-12 04:45:11,042 - INFO - ⏱️ Total execution time: 1.2 minutes
+2025-08-12 04:45:11,042 - INFO - 
+2025-08-12 04:45:11,042 - INFO - 🗞️ CRAWLING PHASE: ✅ SUCCESS (0.7 min)
+2025-08-12 04:45:11,042 - INFO -    📊 Successful crawlers: 1/1
+2025-08-12 04:45:11,042 - INFO - 
+2025-08-12 04:45:11,042 - INFO - 🎯 FINAL STATUS:
+2025-08-12 04:45:11,042 - INFO - 
+================================================================================
+2025-08-12 04:45:11,042 - INFO - 📊 SPA VIP SYSTEM STATUS
+2025-08-12 04:45:11,042 - INFO - ================================================================================
+2025-08-12 04:45:11,468 - INFO - 
+⚠️ Operation interrupted by user

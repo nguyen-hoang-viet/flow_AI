@@ -1,0 +1,720 @@
+2025-08-12 04:58:26,831 - INFO - 🚀 SPA VIP Pipeline initialized
+2025-08-12 04:58:27,539 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 04:58:28,516 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=id&limit=1 "HTTP/2 200 OK"
+2025-08-12 04:58:28,516 - INFO - ✅ Connection test passed for General_News
+2025-08-12 04:58:28,697 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=id&limit=1 "HTTP/2 200 OK"
+2025-08-12 04:58:28,697 - INFO - ✅ Connection test passed for FPT_News
+2025-08-12 04:58:28,861 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=id&limit=1 "HTTP/2 200 OK"
+2025-08-12 04:58:28,865 - INFO - ✅ Connection test passed for GAS_News
+2025-08-12 04:58:29,020 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=id&limit=1 "HTTP/2 200 OK"
+2025-08-12 04:58:29,020 - INFO - ✅ Connection test passed for IMP_News
+2025-08-12 04:58:29,187 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_News?select=id&limit=1 "HTTP/2 200 OK"
+2025-08-12 04:58:29,187 - INFO - ✅ Connection test passed for VCB_News
+2025-08-12 04:58:29,187 - INFO - ✅ All database connections working properly
+2025-08-12 04:58:29,187 - INFO - ✅ Database connection established
+2025-08-12 04:58:29,187 - INFO - 
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2025-08-12 04:58:29,187 - INFO - 🚀 STARTING SPA VIP FULL PIPELINE
+2025-08-12 04:58:29,187 - INFO - 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2025-08-12 04:58:29,187 - INFO - ⏰ Start time: 2025-08-12 04:58:29
+2025-08-12 04:58:29,187 - INFO - 
+🗞️  PHASE 1: NEWS CRAWLING
+2025-08-12 04:58:29,187 - INFO - ==================================================
+2025-08-12 04:58:30,547 - INFO - 🔄 Running all crawlers...
+2025-08-12 04:58:30,547 - INFO - ==================================================
+2025-08-12 04:58:30,547 - INFO - BAT DAU CRAWLING SESSION
+2025-08-12 04:58:30,547 - INFO - ==================================================
+2025-08-12 04:58:30,547 - INFO - Thoi gian bat dau: 2025-08-12 04:58:30
+2025-08-12 04:58:30,547 - INFO - === STOCK PRICE CRAWLER ===
+2025-08-12 04:58:30,547 - INFO - [START] Bắt đầu Stock Price Crawler
+2025-08-12 04:58:32,251 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 04:58:39,409 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-11 "HTTP/2 200 OK"
+2025-08-12 04:58:39,848 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-08 "HTTP/2 200 OK"
+2025-08-12 04:58:40,173 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-07 "HTTP/2 200 OK"
+2025-08-12 04:58:40,537 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-06 "HTTP/2 200 OK"
+2025-08-12 04:58:40,941 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-05 "HTTP/2 200 OK"
+2025-08-12 04:58:41,277 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-04 "HTTP/2 200 OK"
+2025-08-12 04:58:41,685 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-08-01 "HTTP/2 200 OK"
+2025-08-12 04:58:42,084 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-31 "HTTP/2 200 OK"
+2025-08-12 04:58:42,477 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-30 "HTTP/2 200 OK"
+2025-08-12 04:58:42,867 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-29 "HTTP/2 200 OK"
+2025-08-12 04:58:43,337 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-28 "HTTP/2 200 OK"
+2025-08-12 04:58:43,768 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-25 "HTTP/2 200 OK"
+2025-08-12 04:58:44,099 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-24 "HTTP/2 200 OK"
+2025-08-12 04:58:44,601 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-23 "HTTP/2 200 OK"
+2025-08-12 04:58:45,181 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-22 "HTTP/2 200 OK"
+2025-08-12 04:58:45,582 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-21 "HTTP/2 200 OK"
+2025-08-12 04:58:45,998 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-18 "HTTP/2 200 OK"
+2025-08-12 04:58:46,465 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-17 "HTTP/2 200 OK"
+2025-08-12 04:58:46,893 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-16 "HTTP/2 200 OK"
+2025-08-12 04:58:47,333 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-15 "HTTP/2 200 OK"
+2025-08-12 04:58:47,690 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-14 "HTTP/2 200 OK"
+2025-08-12 04:58:48,089 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-11 "HTTP/2 200 OK"
+2025-08-12 04:58:48,445 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-10 "HTTP/2 200 OK"
+2025-08-12 04:58:48,757 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-09 "HTTP/2 200 OK"
+2025-08-12 04:58:49,153 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-08 "HTTP/2 200 OK"
+2025-08-12 04:58:49,499 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-07 "HTTP/2 200 OK"
+2025-08-12 04:58:49,849 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-04 "HTTP/2 200 OK"
+2025-08-12 04:58:50,236 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-03 "HTTP/2 200 OK"
+2025-08-12 04:58:50,598 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-02 "HTTP/2 200 OK"
+2025-08-12 04:58:50,933 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_Stock?select=%2A&date=eq.2025-07-01 "HTTP/2 200 OK"
+2025-08-12 04:58:53,136 - INFO - 🔒 Supabase connections are managed automatically
+2025-08-12 04:58:59,827 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 04:59:07,075 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-11 "HTTP/2 200 OK"
+2025-08-12 04:59:07,248 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:07,653 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-08 "HTTP/2 200 OK"
+2025-08-12 04:59:07,823 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:08,245 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-07 "HTTP/2 200 OK"
+2025-08-12 04:59:08,424 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:08,825 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-06 "HTTP/2 200 OK"
+2025-08-12 04:59:08,932 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:09,365 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-05 "HTTP/2 200 OK"
+2025-08-12 04:59:09,542 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:09,977 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-04 "HTTP/2 200 OK"
+2025-08-12 04:59:10,076 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:10,448 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-08-01 "HTTP/2 200 OK"
+2025-08-12 04:59:10,621 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:11,086 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-31 "HTTP/2 200 OK"
+2025-08-12 04:59:11,177 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:11,543 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-30 "HTTP/2 200 OK"
+2025-08-12 04:59:11,743 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:12,102 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-29 "HTTP/2 200 OK"
+2025-08-12 04:59:12,199 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:12,630 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-28 "HTTP/2 200 OK"
+2025-08-12 04:59:12,797 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:13,148 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-25 "HTTP/2 200 OK"
+2025-08-12 04:59:13,243 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:13,638 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-24 "HTTP/2 200 OK"
+2025-08-12 04:59:13,733 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:14,065 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-23 "HTTP/2 200 OK"
+2025-08-12 04:59:14,161 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:14,501 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-22 "HTTP/2 200 OK"
+2025-08-12 04:59:14,593 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:14,937 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-21 "HTTP/2 200 OK"
+2025-08-12 04:59:15,037 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:15,361 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-18 "HTTP/2 200 OK"
+2025-08-12 04:59:15,451 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:15,917 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-17 "HTTP/2 200 OK"
+2025-08-12 04:59:16,009 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:16,478 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-16 "HTTP/2 200 OK"
+2025-08-12 04:59:16,573 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:16,889 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-15 "HTTP/2 200 OK"
+2025-08-12 04:59:17,040 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:17,409 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-14 "HTTP/2 200 OK"
+2025-08-12 04:59:17,518 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:17,877 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-11 "HTTP/2 200 OK"
+2025-08-12 04:59:18,048 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:18,405 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-10 "HTTP/2 200 OK"
+2025-08-12 04:59:18,577 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:18,984 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-09 "HTTP/2 200 OK"
+2025-08-12 04:59:19,093 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:19,456 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-08 "HTTP/2 200 OK"
+2025-08-12 04:59:19,547 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:19,865 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-07 "HTTP/2 200 OK"
+2025-08-12 04:59:19,961 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:20,305 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-04 "HTTP/2 200 OK"
+2025-08-12 04:59:20,401 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:20,740 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-03 "HTTP/2 200 OK"
+2025-08-12 04:59:20,839 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:21,285 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-02 "HTTP/2 200 OK"
+2025-08-12 04:59:21,389 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:21,757 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock?select=%2A&date=eq.2025-07-01 "HTTP/2 200 OK"
+2025-08-12 04:59:21,847 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_Stock "HTTP/2 201 Created"
+2025-08-12 04:59:24,068 - INFO - 🔒 Supabase connections are managed automatically
+2025-08-12 04:59:30,662 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 04:59:38,173 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-08-11 "HTTP/2 200 OK"
+2025-08-12 04:59:38,277 - INFO - HTTP Request: PATCH https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?date=eq.2025-08-11 "HTTP/2 200 OK"
+2025-08-12 04:59:38,593 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-08-08 "HTTP/2 200 OK"
+2025-08-12 04:59:38,700 - INFO - HTTP Request: PATCH https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?date=eq.2025-08-08 "HTTP/2 200 OK"
+2025-08-12 04:59:39,033 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-08-07 "HTTP/2 200 OK"
+2025-08-12 04:59:39,133 - INFO - HTTP Request: PATCH https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?date=eq.2025-08-07 "HTTP/2 200 OK"
+2025-08-12 04:59:39,492 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-08-06 "HTTP/2 200 OK"
+2025-08-12 04:59:39,589 - INFO - HTTP Request: PATCH https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?date=eq.2025-08-06 "HTTP/2 200 OK"
+2025-08-12 04:59:39,945 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-08-05 "HTTP/2 200 OK"
+2025-08-12 04:59:40,276 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-08-04 "HTTP/2 200 OK"
+2025-08-12 04:59:40,665 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-08-01 "HTTP/2 200 OK"
+2025-08-12 04:59:41,052 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-31 "HTTP/2 200 OK"
+2025-08-12 04:59:41,554 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-30 "HTTP/2 200 OK"
+2025-08-12 04:59:42,005 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-29 "HTTP/2 200 OK"
+2025-08-12 04:59:42,417 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-28 "HTTP/2 200 OK"
+2025-08-12 04:59:43,043 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-25 "HTTP/2 200 OK"
+2025-08-12 04:59:43,473 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-24 "HTTP/2 200 OK"
+2025-08-12 04:59:43,825 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-23 "HTTP/2 200 OK"
+2025-08-12 04:59:44,151 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-22 "HTTP/2 200 OK"
+2025-08-12 04:59:44,486 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-21 "HTTP/2 200 OK"
+2025-08-12 04:59:44,841 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-18 "HTTP/2 200 OK"
+2025-08-12 04:59:45,189 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-17 "HTTP/2 200 OK"
+2025-08-12 04:59:45,525 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-16 "HTTP/2 200 OK"
+2025-08-12 04:59:45,865 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-15 "HTTP/2 200 OK"
+2025-08-12 04:59:46,193 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-14 "HTTP/2 200 OK"
+2025-08-12 04:59:46,517 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-11 "HTTP/2 200 OK"
+2025-08-12 04:59:46,870 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-10 "HTTP/2 200 OK"
+2025-08-12 04:59:47,257 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-09 "HTTP/2 200 OK"
+2025-08-12 04:59:47,599 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-08 "HTTP/2 200 OK"
+2025-08-12 04:59:47,929 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-07 "HTTP/2 200 OK"
+2025-08-12 04:59:48,269 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-04 "HTTP/2 200 OK"
+2025-08-12 04:59:48,725 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-03 "HTTP/2 200 OK"
+2025-08-12 04:59:49,081 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-02 "HTTP/2 200 OK"
+2025-08-12 04:59:49,417 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_Stock?select=%2A&date=eq.2025-07-01 "HTTP/2 200 OK"
+2025-08-12 04:59:51,642 - INFO - 🔒 Supabase connections are managed automatically
+2025-08-12 04:59:58,328 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 05:00:05,533 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-08-11 "HTTP/2 200 OK"
+2025-08-12 05:00:05,715 - INFO - HTTP Request: PATCH https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?date=eq.2025-08-11 "HTTP/2 200 OK"
+2025-08-12 05:00:06,145 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-08-08 "HTTP/2 200 OK"
+2025-08-12 05:00:06,251 - INFO - HTTP Request: PATCH https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?date=eq.2025-08-08 "HTTP/2 200 OK"
+2025-08-12 05:00:06,578 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-08-07 "HTTP/2 200 OK"
+2025-08-12 05:00:06,673 - INFO - HTTP Request: PATCH https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?date=eq.2025-08-07 "HTTP/2 200 OK"
+2025-08-12 05:00:07,136 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-08-06 "HTTP/2 200 OK"
+2025-08-12 05:00:07,241 - INFO - HTTP Request: PATCH https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?date=eq.2025-08-06 "HTTP/2 200 OK"
+2025-08-12 05:00:07,661 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-08-05 "HTTP/2 200 OK"
+2025-08-12 05:00:08,005 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-08-04 "HTTP/2 200 OK"
+2025-08-12 05:00:08,396 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-08-01 "HTTP/2 200 OK"
+2025-08-12 05:00:08,846 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-31 "HTTP/2 200 OK"
+2025-08-12 05:00:09,220 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-30 "HTTP/2 200 OK"
+2025-08-12 05:00:09,610 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-29 "HTTP/2 200 OK"
+2025-08-12 05:00:10,031 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-28 "HTTP/2 200 OK"
+2025-08-12 05:00:10,447 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-25 "HTTP/2 200 OK"
+2025-08-12 05:00:10,895 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-24 "HTTP/2 200 OK"
+2025-08-12 05:00:11,517 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-23 "HTTP/2 200 OK"
+2025-08-12 05:00:12,004 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-22 "HTTP/2 200 OK"
+2025-08-12 05:00:12,348 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-21 "HTTP/2 200 OK"
+2025-08-12 05:00:12,681 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-18 "HTTP/2 200 OK"
+2025-08-12 05:00:13,075 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-17 "HTTP/2 200 OK"
+2025-08-12 05:00:13,496 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-16 "HTTP/2 200 OK"
+2025-08-12 05:00:13,837 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-15 "HTTP/2 200 OK"
+2025-08-12 05:00:14,168 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-14 "HTTP/2 200 OK"
+2025-08-12 05:00:14,589 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-11 "HTTP/2 200 OK"
+2025-08-12 05:00:15,001 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-10 "HTTP/2 200 OK"
+2025-08-12 05:00:15,335 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-09 "HTTP/2 200 OK"
+2025-08-12 05:00:15,665 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-08 "HTTP/2 200 OK"
+2025-08-12 05:00:15,993 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-07 "HTTP/2 200 OK"
+2025-08-12 05:00:16,341 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-04 "HTTP/2 200 OK"
+2025-08-12 05:00:16,681 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-03 "HTTP/2 200 OK"
+2025-08-12 05:00:17,009 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-02 "HTTP/2 200 OK"
+2025-08-12 05:00:17,351 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_Stock?select=%2A&date=eq.2025-07-01 "HTTP/2 200 OK"
+2025-08-12 05:00:19,546 - INFO - 🔒 Supabase connections are managed automatically
+2025-08-12 05:00:24,547 - INFO - [SUCCESS] Stock Price Crawler hoàn thành trong 0:01:53.999805
+2025-08-12 05:00:26,548 - INFO - === FIREANT CRAWLERS ===
+2025-08-12 05:00:26,548 - INFO - [START] Bắt đầu FireAnt FPT Stock
+2025-08-12 05:00:26,907 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 05:00:44,157 - INFO - 🔒 Supabase connections are managed automatically
+2025-08-12 05:00:44,157 - INFO - [SUCCESS] FireAnt FPT Stock hoàn thành trong 0:00:17.608773
+2025-08-12 05:00:44,157 - INFO - [START] Bắt đầu FireAnt GAS Stock
+2025-08-12 05:00:44,693 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 05:01:01,961 - INFO - 🔒 Supabase connections are managed automatically
+2025-08-12 05:01:01,961 - INFO - [SUCCESS] FireAnt GAS Stock hoàn thành trong 0:00:17.804397
+2025-08-12 05:01:01,961 - INFO - [START] Bắt đầu FireAnt IMP Stock
+2025-08-12 05:01:02,401 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 05:01:21,384 - INFO - 🔒 Supabase connections are managed automatically
+2025-08-12 05:01:21,384 - INFO - [SUCCESS] FireAnt IMP Stock hoàn thành trong 0:00:19.422445
+2025-08-12 05:01:21,384 - INFO - [START] Bắt đầu FireAnt VCB Stock
+2025-08-12 05:01:21,799 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 05:01:40,768 - INFO - 🔒 Supabase connections are managed automatically
+2025-08-12 05:01:40,768 - INFO - [SUCCESS] FireAnt VCB Stock hoàn thành trong 0:00:19.384861
+2025-08-12 05:01:40,768 - INFO - [START] Bắt đầu FireAnt General News
+2025-08-12 05:01:41,179 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 05:01:59,508 - INFO - 🔒 Supabase connections are managed automatically
+2025-08-12 05:01:59,508 - INFO - [SUCCESS] FireAnt General News hoàn thành trong 0:00:18.739744
+2025-08-12 05:02:01,510 - INFO - === CAFEF CRAWLERS ===
+2025-08-12 05:02:01,510 - INFO - [START] Bắt đầu CafeF Keyword Search
+2025-08-12 05:02:01,862 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 05:05:01,706 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fhose-ra-mat-bo-chi-so-dau-tu-co-phieu-cong-nghiep-va-cong-nghe-fpt-hpg-gex-gop-mat-18825081116275418.chn "HTTP/2 200 OK"
+2025-08-12 05:05:01,875 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?on_conflict=link "HTTP/2 201 Created"
+2025-08-12 05:05:01,890 - INFO - ✅ Inserted article: HoSE ra mắt bộ chỉ số đầu tư cổ phiếu công nghiệp ...
+2025-08-12 05:05:01,991 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fkhi-gioi-tre-viet-lai-quy-tac-ve-long-trung-thanh-nhay-viec-thanh-xu-huong-cach-techcombank-fpt-software-viettel-unilever-giu-chan-nhan-tai-188250811105257242.chn "HTTP/2 200 OK"
+2025-08-12 05:05:02,079 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?on_conflict=link "HTTP/2 201 Created"
+2025-08-12 05:05:02,095 - INFO - ✅ Inserted article: Khi giới trẻ viết lại quy tắc về "lòng trung thành...
+2025-08-12 05:05:02,181 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Ffpt-hop-tac-chien-luoc-toan-dien-voi-hang-hang-khong-lon-nhat-nhat-ban-188250808110500124.chn "HTTP/2 200 OK"
+2025-08-12 05:05:02,291 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?on_conflict=link "HTTP/2 201 Created"
+2025-08-12 05:05:02,291 - INFO - ✅ Inserted article: FPT hợp tác chiến lược toàn diện với hãng hàng khô...
+2025-08-12 05:05:02,391 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fchuyen-gi-dang-xay-ra-voi-fpt-khoi-ngoai-ban-rong-12-phien-lien-tiep-ho-room-ky-luc-140-trieu-co-phieu-du-loi-nhuan-van-tang-truong-cao-188250807233137629.chn "HTTP/2 200 OK"
+2025-08-12 05:05:02,479 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?on_conflict=link "HTTP/2 201 Created"
+2025-08-12 05:05:02,479 - INFO - ✅ Inserted article: Chuyện gì đang xảy ra với FPT: Khối ngoại bán ròng...
+2025-08-12 05:05:02,594 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fchu-tich-fpt-truong-gia-binh-dich-than-don-chiec-cup-danh-gia-nhat-chau-au-den-da-nang-188250807113909394.chn "HTTP/2 200 OK"
+2025-08-12 05:05:02,712 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?on_conflict=link "HTTP/2 201 Created"
+2025-08-12 05:05:02,712 - INFO - ✅ Inserted article: Chủ tịch FPT Trương Gia Bình đích thân đón chiếc c...
+2025-08-12 05:05:02,818 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fchu-tich-fpt-truong-gia-binh-neu-de-xuat-lon-de-phat-trien-kinh-te-tu-nhan-188250805090256675.chn "HTTP/2 200 OK"
+2025-08-12 05:05:02,819 - INFO - ⏩ Article already exists: Chủ tịch FPT Trương Gia Bình nêu đề xuất lớn để ph...
+2025-08-12 05:05:02,928 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Flan-dau-tien-fpt-giam-hang-tram-nhan-su-10-cai-ten-cat-giam-nhieu-nhat-co-toi-6-ngan-hang-chuyen-gi-dang-xay-ra-188250804235154196.chn "HTTP/2 200 OK"
+2025-08-12 05:05:02,928 - INFO - ⏩ Article already exists: Lần đầu tiên FPT giảm hàng trăm nhân sự, 10 cái tê...
+2025-08-12 05:05:03,029 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fhom-nay-tap-doan-fpt-to-chuc-le-tang-ong-hoang-nam-tien-188250804090422064.chn "HTTP/2 200 OK"
+2025-08-12 05:05:03,030 - INFO - ⏩ Article already exists: Hôm nay, Tập đoàn FPT tổ chức lễ tang ông Hoàng Na...
+2025-08-12 05:05:03,126 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fclip-bien-flash-bat-sang-de-tuong-niem-ong-hoang-nam-tien-chu-tich-fpt-truong-gia-binh-chia-se-xuc-dong-188250802114957749.chn "HTTP/2 200 OK"
+2025-08-12 05:05:03,127 - INFO - ⏩ Article already exists: CLIP: Biển flash bật sáng để tưởng niệm ông Hoàng ...
+2025-08-12 05:05:03,223 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fchu-tich-fpt-truong-gia-binh-viet-nam-la-co-hoi-vang-cho-blockchain-cho-tai-san-so-188250802103427991.chn "HTTP/2 200 OK"
+2025-08-12 05:05:03,224 - INFO - ⏩ Article already exists: Chủ tịch FPT Trương Gia Bình: Việt Nam là cơ hội v...
+2025-08-12 05:05:03,322 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fcach-xa-hon-3700-km-cuu-giam-doc-fpt-nghen-long-biet-tin-anh-tien-mat-toi-bang-hoang-va-ay-nay-18825080111142817.chn "HTTP/2 200 OK"
+2025-08-12 05:05:03,324 - INFO - ⏩ Article already exists: Cách xa hơn 3.700 km, cựu giám đốc FPT nghẹn lòng:...
+2025-08-12 05:05:03,430 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fvao-voi-tien-ngay-nhe-giay-phut-cuoi-doi-cua-ong-hoang-nam-tien-qua-loi-ke-cua-thanh-vien-hdqt-fpt-188250801133653353.chn "HTTP/2 200 OK"
+2025-08-12 05:05:03,431 - INFO - ⏩ Article already exists: “Vào với Tiến ngay nhé…” - giây phút cuối đời của ...
+2025-08-12 05:05:03,521 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fdi-nhan-cua-fpt-va-nhung-triet-li-cho-giao-duc-188250731214846071.chn "HTTP/2 200 OK"
+2025-08-12 05:05:03,522 - INFO - ⏩ Article already exists: 'Dị nhân' của FPT và những triết lí cho giáo dục...
+2025-08-12 05:05:03,597 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fong-hoang-nam-tien-pho-chu-tich-hoi-dong-truong-dai-hoc-fpt-qua-doi-188250731182153939.chn "HTTP/2 200 OK"
+2025-08-12 05:05:03,597 - INFO - ⏩ Article already exists: Ông Hoàng Nam Tiến, Phó Chủ tịch Hội đồng Trường Đ...
+2025-08-12 05:05:03,702 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fsu-nghiep-cua-ong-hoang-nam-tien-tu-ban-may-tinh-ban-code-ban-phan-mem-ban-mang-va-doan-ket-tai-dai-hoc-fpt-188250731173926485.chn "HTTP/2 200 OK"
+2025-08-12 05:05:03,703 - INFO - ⏩ Article already exists: Sự nghiệp của ông Hoàng Nam Tiến: Từ bán máy tính,...
+2025-08-12 05:05:03,907 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fchu-tich-fpt-truong-gia-binh-neu-chi-dua-vao-dau-tu-nuoc-ngoai-viet-nam-se-khong-the-phat-trien-ben-vung-188250731141823164.chn "HTTP/2 200 OK"
+2025-08-12 05:05:04,034 - INFO - ⏩ Article already exists: Chủ tịch FPT Trương Gia Bình: "Nếu chỉ dựa vào đầu...
+2025-08-12 05:05:04,144 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Float-ong-lon-fpt-galaxy-holdings-chi-manh-lam-tri-tue-nhan-tao-song-60-nguoi-viet-lo-so-mat-quyen-rieng-tu-chuyen-gia-khuyen-cao-gi-188250731083221927.chn "HTTP/2 200 OK"
+2025-08-12 05:05:04,144 - INFO - ⏩ Article already exists: Loạt “ông lớn” FPT, Galaxy Holdings… chi mạnh làm ...
+2025-08-12 05:05:04,295 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Ffpt-telecom-da-dau-tu-bao-nhieu-tien-cho-trung-tam-du-lieu-lon-nhat-viet-nam-188250731005555638.chn "HTTP/2 200 OK"
+2025-08-12 05:05:04,295 - INFO - ⏩ Article already exists: FPT Telecom đã đầu tư bao nhiêu tiền cho trung tâm...
+2025-08-12 05:05:04,428 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Ffpt-retail-frt-thu-gan-900-ty-tu-ban-co-phan-chuoi-long-chau-he-lo-muc-dinh-gia-188250729220810933.chn "HTTP/2 200 OK"
+2025-08-12 05:05:04,428 - INFO - ⏩ Article already exists: FPT Retail (FRT) thu gần 900 tỷ từ bán cổ phần chu...
+2025-08-12 05:05:04,541 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Ffpt-retail-frt-bao-lai-6-thang-tang-truong-199-so-voi-cung-ky-hoan-thanh-70-ke-hoach-mo-moi-cua-hang-188250729161340601.chn "HTTP/2 200 OK"
+2025-08-12 05:05:04,542 - INFO - ⏩ Article already exists: FPT Retail (FRT) báo lãi 6 tháng tăng trưởng 199% ...
+2025-08-12 05:08:16,556 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fgia-gas-giam-thang-thu-ba-lien-tiep-188250802000821396.chn "HTTP/2 200 OK"
+2025-08-12 05:08:16,556 - INFO - ⏩ Article already exists: Giá gas giảm tháng thứ ba liên tiếp...
+2025-08-12 05:08:16,743 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fcap-nhat-bctc-quy-2-2025-toi-ngay-30-7-vietcombank-bidv-pv-gas-bsr-them-nhieu-doanh-nghiep-lon-cong-bo-188250730070309483.chn "HTTP/2 200 OK"
+2025-08-12 05:08:16,743 - INFO - ⏩ Article already exists: Cập nhật BCTC quý 2/2025 tối ngày 30/7: Vietcomban...
+2025-08-12 05:08:16,896 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2F42-cai-ten-lon-nhat-hose-chiem-52-trieu-ty-von-hoa-loat-ngan-hang-no-nuc-vuot-dinh-hoa-phat-pvgas-vinamilk-chua-ve-hoang-kim-rieng-novaland-chi-bang-1-5-dinh-cu-188250727230200586.chn "HTTP/2 200 OK"
+2025-08-12 05:08:16,896 - INFO - ⏩ Article already exists: Vn-Index vượt đỉnh sau 3,5 năm: LPB tăng sốc, Hòa ...
+2025-08-12 05:08:17,063 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fno-khi-gas-khien-toa-nha-chung-cu-10-tang-sup-do-hien-truong-vo-cung-hon-loan-188250726182137309.chn "HTTP/2 200 OK"
+2025-08-12 05:08:17,063 - INFO - ⏩ Article already exists: Nổ khí gas khiến toà nhà chung cư 10 tầng sụp đổ: ...
+2025-08-12 05:08:17,235 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fpv-gas-sap-chi-gan-4920-ty-dong-tra-co-tuc-nam-2024-188250725135001882.chn "HTTP/2 200 OK"
+2025-08-12 05:08:17,235 - INFO - ⏩ Article already exists: PV Gas sắp chi gần 4.920 tỷ đồng trả cổ tức năm 20...
+2025-08-12 05:08:17,397 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fgia-dinh-5-nguoi-suyt-chet-khi-nau-bep-gas-trong-phong-dieu-hoa-18825071010004951.chn "HTTP/2 200 OK"
+2025-08-12 05:08:17,397 - INFO - ⏩ Article already exists: Gia đình 5 người suýt chết khi nấu bếp gas trong p...
+2025-08-12 05:08:17,565 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fgia-gas-giam-thang-thu-hai-lien-tiep-18825070109174919.chn "HTTP/2 200 OK"
+2025-08-12 05:08:17,565 - INFO - ⏩ Article already exists: Giá gas giảm tháng thứ hai liên tiếp...
+2025-08-12 05:08:17,730 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fpv-gas-dat-ke-hoach-kinh-doanh-di-lui-du-kien-phat-hanh-them-70-trieu-co-phieu-thuong-188250528102549144.chn "HTTP/2 200 OK"
+2025-08-12 05:08:17,746 - INFO - ⏩ Article already exists: PV Gas đặt kế hoạch kinh doanh “đi lùi”, dự kiến p...
+2025-08-12 05:08:17,913 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fmot-cong-ty-gas-niem-yet-doi-mat-nguy-co-huy-niem-yet-bat-buoc-188250515130935521.chn "HTTP/2 200 OK"
+2025-08-12 05:08:17,913 - INFO - ⏩ Article already exists: Một công ty gas niêm yết đối mặt nguy cơ huỷ niêm ...
+2025-08-12 05:08:18,096 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fgiat-minh-ket-qua-kiem-tra-cac-co-so-kinh-doanh-gas-lon-o-tp-bien-hoa-dong-nai-188250511172322587.chn "HTTP/2 200 OK"
+2025-08-12 05:08:18,096 - INFO - ⏩ Article already exists: “Giật mình” kết quả kiểm tra các cơ sở kinh doanh ...
+2025-08-12 05:08:18,206 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fpvn-pv-gas-vnvc-vietnam-airlines-ky-loat-hop-tac-cung-cac-tap-doan-nga-truoc-su-chung-kien-cua-tong-bi-thu-to-lam-va-tong-thong-vladimir-putin-188250511120906537.chn "HTTP/2 200 OK"
+2025-08-12 05:08:18,207 - INFO - ⏩ Article already exists: PVN, PV GAS, VNVC, Vietnam Airlines ký loạt hợp tá...
+2025-08-12 05:08:18,315 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fgia-gas-ban-le-trong-nuoc-thang-5-on-dinh-188250502063422837.chn "HTTP/2 200 OK"
+2025-08-12 05:08:18,315 - INFO - ⏩ Article already exists: Giá gas bán lẻ trong nước tháng 5 ổn định...
+2025-08-12 05:08:18,413 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fpv-gas-ncsp-khoi-dong-lo-trinh-ai-first-xay-nen-mong-tu-tu-duy-lanh-dao-den-hanh-dong-thuc-tien-188250421093541665.chn "HTTP/2 200 OK"
+2025-08-12 05:08:18,415 - INFO - ⏩ Article already exists: PV GAS NCSP khởi động lộ trình AI-First: Xây nền m...
+2025-08-12 05:08:18,513 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fno-luc-thu-hep-tham-hut-thuong-mai-my-viet-loat-don-hang-ty-do-cua-vietnam-airlines-vietjet-pv-gas-188250413231458809.chn "HTTP/2 200 OK"
+2025-08-12 05:08:18,515 - INFO - ⏩ Article already exists: Nỗ lực thu hẹp thâm hụt thương mại Mỹ - Việt: Loạt...
+2025-08-12 05:08:18,682 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2F2-vo-chong-cung-mac-ung-thu-bac-si-chi-ra-1-sai-lam-chi-mang-khi-dung-bep-gas-188250408062043788.chn "HTTP/2 200 OK"
+2025-08-12 05:08:18,682 - INFO - ⏩ Article already exists: 2 vợ chồng cùng mắc ung thư: Bác sĩ chỉ ra 1 sai l...
+2025-08-12 05:08:18,861 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fdn-so-huu-he-thong-cua-hang-ban-le-gas-lon-nhat-nuoc-co-lai-tro-lai-len-tieng-khi-bi-kiem-toan-nghi-ngo-kha-nang-hoat-dong-lien-tuc-188250406074728236.chn "HTTP/2 200 OK"
+2025-08-12 05:08:18,861 - INFO - ⏩ Article already exists: DN sở hữu hệ thống cửa hàng bán lẻ Gas lớn nhất nư...
+2025-08-12 05:08:18,957 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fdan-1-thu-len-bep-gas-moi-nam-tiet-kiem-mo-tien-nguoi-han-hay-ap-dung-nguoi-viet-lai-it-biet-188250322211932286.chn "HTTP/2 200 OK"
+2025-08-12 05:08:18,958 - INFO - ⏩ Article already exists: Dán 1 thứ lên bếp gas, mỗi năm tiết kiệm mớ tiền: ...
+2025-08-12 05:08:19,045 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fpv-gas-bi-nhac-nho-do-cham-cong-bo-thong-tin-188250320154028014.chn "HTTP/2 200 OK"
+2025-08-12 05:08:19,046 - INFO - ⏩ Article already exists: PV Gas bị nhắc nhở do chậm công bố thông tin...
+2025-08-12 05:08:19,141 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2F6-bi-mat-cua-bep-gas-toi-ma-biet-som-thi-da-tiet-kiem-duoc-hang-trieu-dong-moi-nam-188250320082757077.chn "HTTP/2 200 OK"
+2025-08-12 05:08:19,142 - INFO - ⏩ Article already exists: 6 "bí mật" của bếp gas, tôi mà biết sớm thì đã tiế...
+2025-08-12 05:08:19,314 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2F1-meo-nho-tren-bep-gas-co-the-giup-ban-tiet-kiem-rat-nhieu-tien-trong-1-nam-the-nhung-chi-it-nguoi-biet-188250313144838509.chn "HTTP/2 200 OK"
+2025-08-12 05:08:19,314 - INFO - ⏩ Article already exists: 1 mẹo nhỏ trên bếp gas có thể giúp bạn tiết kiệm r...
+2025-08-12 05:11:19,855 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fimexpharm-imp-uoc-tinh-bien-lai-gop-2024-len-41-dang-xem-xet-dau-tu-them-nha-may-moi-188240427124711399.chn "HTTP/2 200 OK"
+2025-08-12 05:11:19,865 - INFO - ⏩ Article already exists: Imexpharm (IMP): Ước tính biên lãi gộp 2024 lên 41...
+2025-08-12 05:11:20,022 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fimp-ket-qua-kinh-doanh-an-tuong-phong-do-co-phieu-lai-di-nguoc-vn-index-188231213112441362.chn "HTTP/2 200 OK"
+2025-08-12 05:11:20,022 - INFO - ⏩ Article already exists: IMP: Kết quả kinh doanh ấn tượng, phong độ cổ phiế...
+2025-08-12 05:11:20,202 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fimexpharm-imp-bao-lai-khung-9-thang-dau-nam-188231020084039579.chn "HTTP/2 200 OK"
+2025-08-12 05:11:20,202 - INFO - ⏩ Article already exists: Imexpharm (IMP) báo lãi “khủng” 9 tháng đầu năm...
+2025-08-12 05:11:20,290 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fimexpharm-imp-lai-ky-luc-quy-2-tang-truong-71-co-phieu-but-pha-kich-tran-18823071814412292.chn "HTTP/2 200 OK"
+2025-08-12 05:11:20,291 - INFO - ⏩ Article already exists: Imexpharm (IMP) lãi kỷ lục quý 2, tăng trưởng 71%,...
+2025-08-12 05:11:20,455 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fvuot-10-ke-hoach-2022-imexpharm-imp-dat-muc-tieu-loi-nhuan-di-ngang-trong-nam-2023-20230210154207098.chn "HTTP/2 200 OK"
+2025-08-12 05:11:20,455 - INFO - ⏩ Article already exists: Vượt 10% kế hoạch 2022, Imexpharm (IMP) đặt mục ti...
+2025-08-12 05:11:20,552 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fduoc-pham-imexpharm-imp-tap-trung-vao-san-pham-chu-luc-co-gia-tri-quy-1-lai-tang-25-so-voi-cung-ky-20220418154808723.chn "HTTP/2 200 OK"
+2025-08-12 05:11:20,553 - INFO - ⏩ Article already exists: Dược phẩm Imexpharm (IMP): Tập trung vào sản phẩm ...
+2025-08-12 05:11:20,718 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fduoc-pham-imexpharm-imp-dat-muc-tieu-lai-truoc-thue-275-ty-dong-nam-2022-20220318113803142.chn "HTTP/2 200 OK"
+2025-08-12 05:11:20,718 - INFO - ⏩ Article already exists: Dược phẩm Imexpharm (IMP) đặt mục tiêu lãi trước t...
+2025-08-12 05:11:20,887 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fviod-ra-mat-chuong-trinh-thanh-vien-ca-nhan-imp-danh-cho-cac-thanh-vien-hdqt-20220307162333402.chn "HTTP/2 200 OK"
+2025-08-12 05:11:20,901 - INFO - ⏩ Article already exists: VIOD ra mắt Chương trình Thành viên Cá nhân (IMP) ...
+2025-08-12 05:11:20,998 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fkwe-beteiligungen-ban-het-hon-10-trieu-co-phieu-imp-khong-con-la-co-dong-lon-cua-duoc-pham-imexpharm-20220215215106317.chn "HTTP/2 200 OK"
+2025-08-12 05:11:21,000 - INFO - ⏩ Article already exists: KWE Beteiligungen bán hết hơn 10 triệu cổ phiếu IM...
+2025-08-12 05:11:21,098 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fhdg-hpg-fdc-imp-hax-clw-lhc-hpm-ats-thong-tin-giao-dich-luong-lon-co-phieu-20220215220713969.chn "HTTP/2 200 OK"
+2025-08-12 05:11:21,099 - INFO - ⏩ Article already exists: HDG, HPG, FDC, IMP, HAX, CLW, LHC, HPM, ATS: Thông...
+2025-08-12 05:11:21,256 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fsk-investment-dang-ky-nhan-chuyen-nhuong-hon-11-trieu-co-phan-duoc-pham-imexpharm-imp-nang-tong-so-huu-len-hon-46-von-20220207103933477.chn "HTTP/2 200 OK"
+2025-08-12 05:11:21,258 - INFO - ⏩ Article already exists: SK Investment đăng ký nhận chuyển nhượng hơn 11 tr...
+2025-08-12 05:11:21,403 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fceo-nvl-kos-pgc-hag-chp-dqc-fcn-pc1-ppe-imp-gil-cet-d11-tms-cms-lm8-pvv-ila-c69-thong-tin-giao-dich-luong-lon-co-phieu-20211207181858218.chn "HTTP/2 200 OK"
+2025-08-12 05:11:21,403 - INFO - ⏩ Article already exists: CEO, NVL, KOS, PGC, HAG, CHP, DQC, FCN, PC1, PPE, ...
+2025-08-12 05:11:21,505 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fita-gvr-tdh-kdh-ptl-imp-dtl-tms-agm-dbt-dhc-c32-mac-pdb-bsc-dih-thong-tin-giao-dich-luong-lon-co-phieu-20211103083254192.chn "HTTP/2 200 OK"
+2025-08-12 05:11:21,506 - INFO - ⏩ Article already exists: ITA, GVR, TDH, KDH, PTL, IMP, DTL, TMS, AGM, DBT, ...
+2025-08-12 05:11:21,598 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fimexpharm-imp-covid-19-khien-hoat-dong-ngung-tre-lnst-quy-3-2021-giam-385-xuong-con-31-ty-dong-20211020082038176.chn "HTTP/2 200 OK"
+2025-08-12 05:11:21,599 - INFO - ⏩ Article already exists: Imexpharm (IMP): Covid-19 khiến hoạt động ngưng tr...
+2025-08-12 05:11:21,752 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fklb-idc-tvb-imp-dhc-tnt-cen-asa-hd2-lic-mtg-dzm-hax-vtd-adg-thong-tin-giao-dich-luong-lon-co-phieu-20211016095430747.chn "HTTP/2 200 OK"
+2025-08-12 05:11:21,752 - INFO - ⏩ Article already exists: KLB, IDC, TVB, IMP, DHC, TNT, CEN, ASA, HD2, LIC, ...
+2025-08-12 05:11:21,839 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fnkg-fmc-dxg-imp-sdd-thong-tin-giao-dich-luong-lon-co-phieu-20211012175516618.chn "HTTP/2 200 OK"
+2025-08-12 05:11:21,839 - INFO - ⏩ Article already exists: NKG, FMC, DXG, IMP, SDD: Thông tin giao dịch lượng...
+2025-08-12 05:11:22,013 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fimexpharm-imp-bi-anh-huong-nghiem-trong-do-lenh-gian-cach-doanh-thu-thang-8-2021-giam-12-xuong-con-94-ty-dong-20210920083942287.chn "HTTP/2 200 OK"
+2025-08-12 05:11:22,015 - INFO - ⏩ Article already exists: Imexpharm (IMP): Bị ảnh hưởng nghiêm trọng do lệnh...
+2025-08-12 05:11:22,089 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fmsn-tlh-fir-pvi-tms-dl1-ds3-dpc-hna-did-imp-sma-hms-elc-ads-thong-tin-giao-dich-luong-lon-co-phieu-20210720081109834.chn "HTTP/2 200 OK"
+2025-08-12 05:11:22,089 - INFO - ⏩ Article already exists: MSN, TLH, FIR, PVI, TMS, DL1, DS3, DPC, HNA, DID, ...
+2025-08-12 05:11:22,171 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fidc-cc1-nlg-vng-tgg-opc-hvh-dlg-lpb-kdc-imp-hhv-cia-vrg-phs-hgm-bna-cqn-ndp-dri-thong-tin-giao-dich-luong-lon-co-phieu-20210623082211391.chn "HTTP/2 200 OK"
+2025-08-12 05:11:22,186 - INFO - ⏩ Article already exists: IDC, CC1, NLG, VNG, TGG, OPC, HVH, DLG, LPB, KDC, ...
+2025-08-12 05:11:22,275 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fcong-ty-moi-thanh-lap-chua-day-1-thang-chi-gan-400-ty-tro-thanh-co-dong-lon-tai-duoc-imexpharm-imp-20210622142826029.chn "HTTP/2 200 OK"
+2025-08-12 05:11:22,276 - INFO - ⏩ Article already exists: Công ty mới thành lập chưa đầy 1 tháng chi gần 400...
+2025-08-12 05:15:47,901 - ERROR - [ERROR] CafeF Keyword Search lỗi sau 0:13:46.391644: HTTPConnectionPool(host='localhost', port=58430): Read timed out. (read timeout=120)
+2025-08-12 05:15:47,901 - INFO - [START] Bắt đầu CafeF General News
+2025-08-12 05:18:56,570 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 05:18:57,498 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Flich-su-kien-va-tin-van-chung-khoan-ngay-12-8-2025-18825081123212263.chn "HTTP/2 200 OK"
+2025-08-12 05:18:57,657 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?on_conflict=link "HTTP/2 201 Created"
+2025-08-12 05:18:57,657 - INFO - ✅ Inserted article: Lịch sự kiện và tin vắn chứng khoán ngày 12/8/2025...
+2025-08-12 05:18:57,765 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Flai-lon-mot-doanh-nghiep-muon-tan-loc-hon-20000-ty-cho-co-dong-188250811232015483.chn "HTTP/2 200 OK"
+2025-08-12 05:18:57,860 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?on_conflict=link "HTTP/2 201 Created"
+2025-08-12 05:18:57,860 - INFO - ✅ Inserted article: Lãi lớn, một doanh nghiệp muốn "tán lộc" hơn 20.00...
+2025-08-12 05:18:58,025 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fvn-index-huong-len-vung-1625-diem-ngay-trong-thang-8-ctck-goi-ten-6-co-phieu-dau-nganh-co-cau-chuyen-ho-tro-18825081122204954.chn "HTTP/2 200 OK"
+2025-08-12 05:18:58,111 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?on_conflict=link "HTTP/2 409 Conflict"
+2025-08-12 05:18:58,111 - ERROR - ❌ Database error inserting article: {'message': 'duplicate key value violates unique constraint "General_News_pkey"', 'code': '23505', 'hint': None, 'details': None}
+2025-08-12 05:18:58,202 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fdoanh-nghiep-viet-xuat-khau-chanh-leo-so-1-chau-a-bao-lai-ky-luc-co-phieu-tang-vot-len-sat-dinh-lich-su-188250811222205856.chn "HTTP/2 200 OK"
+2025-08-12 05:18:58,293 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?on_conflict=link "HTTP/2 409 Conflict"
+2025-08-12 05:18:58,293 - ERROR - ❌ Database error inserting article: {'message': 'duplicate key value violates unique constraint "General_News_pkey"', 'code': '23505', 'hint': None, 'details': None}
+2025-08-12 05:18:58,390 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fchung-khoan-ngay-mai-12-8-khong-nen-mua-duoi-co-phieu-o-vung-gia-cao-188250811215517157.chn "HTTP/2 200 OK"
+2025-08-12 05:18:58,391 - INFO - ⏩ Article already exists: Chứng khoán ngày mai, 12-8: Không nên mua đuổi cổ ...
+2025-08-12 05:18:58,479 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2F1matrix-cong-ty-blockchain-cua-con-trai-ty-phu-ho-hung-anh-khang-dinh-chi-mat-duoi-1h-de-tao-ra-mot-blockchain-layer-1-to-chuc-su-dung-tham-chi-khong-can-nhan-su-cong-nghe-188250811173206096.chn "HTTP/2 200 OK"
+2025-08-12 05:18:58,479 - INFO - ⏩ Article already exists: 1Matrix – công ty blockchain của con trai tỷ phú H...
+2025-08-12 05:18:58,567 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fgiac-mo-ty-usd-cua-doanh-nghiep-tren-san-chung-khoan-viet-nam-18825081117102438.chn "HTTP/2 200 OK"
+2025-08-12 05:18:58,568 - INFO - ⏩ Article already exists: “Giấc mơ tỷ USD” của doanh nghiệp trên sàn chứng k...
+2025-08-12 05:18:58,656 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2F2-con-trai-chu-tich-nam-long-khong-hoan-tat-giao-dich-co-phieu-nlg-18825081117293086.chn "HTTP/2 200 OK"
+2025-08-12 05:18:58,658 - INFO - ⏩ Article already exists: 2 con trai Chủ tịch Nam Long không hoàn tất giao d...
+2025-08-12 05:18:58,749 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Ftai-san-cua-ty-phu-nguyen-dang-quang-tang-vu-vu-18825081117174697.chn "HTTP/2 200 OK"
+2025-08-12 05:18:58,750 - INFO - ⏩ Article already exists: Tài sản của tỷ phú Nguyễn Đăng Quang tăng vù vù...
+2025-08-12 05:18:58,838 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fmot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-manh-trong-phien-dau-tuan-11-8-188250811171631375.chn "HTTP/2 200 OK"
+2025-08-12 05:18:58,839 - INFO - ⏩ Article already exists: Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng m...
+2025-08-12 05:18:58,929 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fhose-cong-bo-ro-chi-so-moi-vn50-growth-18825081117155099.chn "HTTP/2 200 OK"
+2025-08-12 05:18:58,930 - INFO - ⏩ Article already exists: HOSE công bố rổ chỉ số mới VN50 GROWTH...
+2025-08-12 05:18:59,018 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fhose-ra-mat-bo-chi-so-dau-tu-co-phieu-cong-nghiep-va-cong-nghe-fpt-hpg-gex-gop-mat-18825081116275418.chn "HTTP/2 200 OK"
+2025-08-12 05:18:59,019 - INFO - ⏩ Article already exists: HoSE ra mắt bộ chỉ số đầu tư cổ phiếu công nghiệp ...
+2025-08-12 05:18:59,108 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fmot-co-phieu-bat-ngo-tang-soc-40-trong-1-phien-188250811154749558.chn "HTTP/2 200 OK"
+2025-08-12 05:18:59,109 - INFO - ⏩ Article already exists: Một cổ phiếu bất ngờ tăng sốc 40% trong 1 phiên...
+2025-08-12 05:18:59,194 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Ftiep-da-ban-rong-hon-600-ty-dong-phien-dau-tuan-khoi-ngoai-xa-manh-co-phieu-nao-188250811153311372.chn "HTTP/2 200 OK"
+2025-08-12 05:18:59,195 - INFO - ⏩ Article already exists: Tiếp đà bán ròng hơn 600 tỷ đồng phiên đầu tuần, k...
+2025-08-12 05:18:59,281 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fvingroup-cua-ty-phu-pham-nhat-vuong-chinh-thuc-lan-san-sang-mang-ha-tang-va-nang-luong-xanh-188250811152508738.chn "HTTP/2 200 OK"
+2025-08-12 05:18:59,282 - INFO - ⏩ Article already exists: Vingroup của tỷ phú Phạm Nhật Vượng chính thức "lấ...
+2025-08-12 05:18:59,371 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Ftriet-pha-duong-day-lua-dao-tien-ao-xuyen-quoc-gia-quy-mo-hang-ty-usd-20-bi-can-sa-luoi-188250811150137667.chn "HTTP/2 200 OK"
+2025-08-12 05:18:59,371 - INFO - ⏩ Article already exists: Triệt phá đường dây lừa đảo tiền ảo xuyên quốc gia...
+2025-08-12 05:18:59,459 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fxuat-hien-co-phieu-co-thi-gia-vuot-1-trieu-dong-188250811130125007.chn "HTTP/2 200 OK"
+2025-08-12 05:18:59,460 - INFO - ⏩ Article already exists: Xuất hiện cổ phiếu có thị giá vượt 1 triệu đồng...
+2025-08-12 05:18:59,551 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fnovaland-cham-thanh-toan-hon-2500-ty-dong-goc-lai-trai-phieu-trong-nua-dau-nam-2025-188250811104158436.chn "HTTP/2 200 OK"
+2025-08-12 05:18:59,552 - INFO - ⏩ Article already exists: Novaland chậm thanh toán hơn 2.500 tỷ đồng gốc, lã...
+2025-08-12 05:18:59,638 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fco-phieu-nao-dang-chu-y-trong-thang-8-188250811110507481.chn "HTTP/2 200 OK"
+2025-08-12 05:18:59,639 - INFO - ⏩ Article already exists: Cổ phiếu nào đáng chú ý trong tháng 8?...
+2025-08-12 05:18:59,727 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fvi-sao-dua-nhau-mua-co-phieu-bat-dong-san-188250811095113609.chn "HTTP/2 200 OK"
+2025-08-12 05:18:59,727 - INFO - ⏩ Article already exists: Vì sao đua nhau mua cổ phiếu bất động sản?...
+2025-08-12 05:18:59,815 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fnhieu-chinh-sach-ho-tro-chung-khoan-viet-chinh-phuc-dinh-cao-nhat-moi-thoi-dai-188250811090514198.chn "HTTP/2 200 OK"
+2025-08-12 05:18:59,815 - INFO - ⏩ Article already exists: Nhiều chính sách hỗ trợ chứng khoán Việt Nam chinh...
+2025-08-12 05:18:59,906 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fnha-sang-lap-fiingroup-len-song-the-investors-ngay-12-8-tu-bo-vuc-dong-cua-den-khat-vong-kien-tao-ha-tang-thong-tin-cho-thi-truong-von-viet-nam-18825081022340881.chn "HTTP/2 200 OK"
+2025-08-12 05:18:59,908 - INFO - ⏩ Article already exists: Nhà sáng lập FiinGroup lên sóng The Investors ngày...
+2025-08-12 05:19:00,058 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fsgi-capital-khi-tin-tot-bat-dau-phan-anh-vao-gia-viec-lua-chon-co-phieu-ky-luong-va-quan-tri-rui-ro-can-duoc-uu-tien-cao-hon-188250811110938136.chn "HTTP/2 200 OK"
+2025-08-12 05:19:00,269 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?on_conflict=link "HTTP/2 409 Conflict"
+2025-08-12 05:19:00,269 - ERROR - ❌ Database error inserting article: {'message': 'duplicate key value violates unique constraint "General_News_pkey"', 'code': '23505', 'hint': None, 'details': None}
+2025-08-12 05:19:00,364 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Flich-su-kien-va-tin-van-chung-khoan-ngay-11-8-2025-188250810223523775.chn "HTTP/2 200 OK"
+2025-08-12 05:19:00,365 - INFO - ⏩ Article already exists: Lịch sự kiện và tin vắn chứng khoán ngày 11/8/2025...
+2025-08-12 05:19:00,460 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fchung-khoan-rung-lac-tren-dinh-co-nen-mao-hiem-voi-co-phieu-tra-da-188250810161344979.chn "HTTP/2 200 OK"
+2025-08-12 05:19:00,460 - INFO - ⏩ Article already exists: Chứng khoán rung lắc trên đỉnh, có nên mạo hiểm vớ...
+2025-08-12 05:19:00,556 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fdai-gia-dau-khi-ky-vong-huong-loi-lon-tu-sieu-du-an-12-ty-usd-lo-b-o-mon-188250811000358204.chn "HTTP/2 200 OK"
+2025-08-12 05:19:00,558 - INFO - ⏩ Article already exists: “Đại gia” dầu khí kỳ vọng hưởng lợi lớn từ siêu dự...
+2025-08-12 05:19:00,709 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fctck-diem-ten-loat-doanh-nghiep-co-tiem-nang-tang-truong-ky-vong-hut-tien-18825081023405045.chn "HTTP/2 200 OK"
+2025-08-12 05:19:00,725 - INFO - ⏩ Article already exists: CTCK điểm tên loạt doanh nghiệp có tiềm năng tăng ...
+2025-08-12 05:19:00,818 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fcong-an-tp-ha-noi-phat-canh-bao-khan-den-toan-bo-nguoi-dan-ve-lua-dao-dau-tu-tien-ao-tren-ung-dung-koi-global-188250810215831177.chn "HTTP/2 200 OK"
+2025-08-12 05:19:00,819 - INFO - ⏩ Article already exists: Công an TP Hà Nội phát cảnh báo khẩn đến toàn bộ n...
+2025-08-12 05:19:00,906 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fmot-quy-ngoai-vua-roi-ghe-co-dong-lon-tai-haxaco-188250810194424662.chn "HTTP/2 200 OK"
+2025-08-12 05:19:00,907 - INFO - ⏩ Article already exists: Một quỹ ngoại vừa rời ghế cổ đông lớn tại Haxaco...
+2025-08-12 05:19:00,993 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Flanh-dao-hsc-muon-ban-500000-co-phieu-hcm-188250810194307222.chn "HTTP/2 200 OK"
+2025-08-12 05:19:00,994 - INFO - ⏩ Article already exists: Lãnh đạo HSC muốn bán 500.000 cổ phiếu HCM...
+2025-08-12 05:19:01,087 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Flien-tuc-nguoc-du-bao-nha-dau-tu-chung-khoan-lam-gi-de-khong-bi-bo-roi-188250810161816909.chn "HTTP/2 200 OK"
+2025-08-12 05:19:01,088 - INFO - ⏩ Article already exists: Liên tục ngược dự báo, nhà đầu tư chứng khoán làm ...
+2025-08-12 05:19:01,161 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fgoc-nhin-chuyen-gia-chung-khoan-vao-giai-doanon-dinh-va-tang-toc-nhung-khong-loai-tru-kha-nang-dieu-chinh-ngan-han-188250810122536606.chn "HTTP/2 200 OK"
+2025-08-12 05:19:01,161 - INFO - ⏩ Article already exists: Góc nhìn chuyên gia: Chứng khoán vào giai đoạn Ổn ...
+2025-08-12 05:19:01,266 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2F7-thang-nop-ngan-sach-nha-nuoc-83013-ty-dong-doanh-nghiep-nay-kinh-doanh-gi-ma-du-vay-188250809232249417.chn "HTTP/2 200 OK"
+2025-08-12 05:19:01,267 - INFO - ⏩ Article already exists: 7 tháng nộp ngân sách Nhà nước 83.013 tỷ đồng, doa...
+2025-08-12 05:19:01,358 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fquy-ngoai-ty-usd-thang-lon-voi-nhom-ngan-hang-chung-khoan-he-lo-ly-do-om-luong-co-phieu-vix-tri-gia-gan-2000-ty-188250809230907347.chn "HTTP/2 200 OK"
+2025-08-12 05:19:01,360 - INFO - ⏩ Article already exists: Quỹ ngoại tỷ USD thắng lớn với nhóm ngân hàng, chứ...
+2025-08-12 05:19:01,457 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Flich-chot-quyen-co-tuc-11-8-15-8-co-tuc-tien-mat-cao-nhat-25-mot-ngan-hang-lon-chi-hon-1800-ty-dong-tra-co-tuc-188250809225810493.chn "HTTP/2 200 OK"
+2025-08-12 05:19:01,459 - INFO - ⏩ Article already exists: Lịch chốt quyền cổ tức 11/8-15/8: Cổ tức tiền mặt ...
+2025-08-12 05:19:01,545 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fdai-cat-tim-vang-tu-kqkd-quy-2-lo-dien-loat-sieu-co-phieu-tiem-nang-voi-bien-lai-gop-tang-truong-lien-tuc-188250809222155856.chn "HTTP/2 200 OK"
+2025-08-12 05:19:01,546 - INFO - ⏩ Article already exists: "Đãi cát tìm vàng" từ KQKD quý 2: Lộ diện loạt "si...
+2025-08-12 05:19:01,691 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Ffideco-khac-phuc-tinh-trang-chung-khoan-bi-canh-bao-ra-sao-188250809100907405.chn "HTTP/2 200 OK"
+2025-08-12 05:19:01,691 - INFO - ⏩ Article already exists: Fideco khắc phục tình trạng chứng khoán bị cảnh bá...
+2025-08-12 05:19:01,779 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2F17-trieu-nguoi-viet-so-huu-tai-san-so-sap-toi-se-thi-diem-may-san-giao-dich-188250808222044383.chn "HTTP/2 200 OK"
+2025-08-12 05:19:01,779 - INFO - ⏩ Article already exists: 17 triệu người Việt sở hữu tài sản số, sắp tới sẽ ...
+2025-08-12 05:19:01,890 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fssi-research-ky-vong-vn-index-huong-toi-vung-1800-diem-188250808221838454.chn "HTTP/2 200 OK"
+2025-08-12 05:19:01,893 - INFO - ⏩ Article already exists: SSI Research kỳ vọng VN-Index hướng tới vùng 1.800...
+2025-08-12 05:19:01,985 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fkhoi-ngoai-ban-rong-manh-chua-tung-co-tam-diem-xa-gan-13000-ty-tai-mot-co-phieu-trong-tuan-4-8-8-188250809000248341.chn "HTTP/2 200 OK"
+2025-08-12 05:19:01,987 - INFO - ⏩ Article already exists: Khối ngoại bán ròng mạnh chưa từng có, tâm điểm "x...
+2025-08-12 05:19:02,077 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fmwg-muon-niem-yet-doc-lap-chuoi-the-gioi-di-dong-va-bach-hoa-xanh-188250808225649494.chn "HTTP/2 200 OK"
+2025-08-12 05:19:02,078 - INFO - ⏩ Article already exists: MWG muốn niêm yết độc lập chuỗi Thế Giới Di Động v...
+2025-08-12 05:19:02,170 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Ff88-ngay-dau-len-san-gia-tran-du-ban-han-che-188250808214252476.chn "HTTP/2 200 OK"
+2025-08-12 05:19:02,171 - INFO - ⏩ Article already exists: F88 ngày đầu lên sàn: Giá trần, dư bán hạn chế...
+2025-08-12 05:19:02,259 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Ftu-doanh-ctck-bat-ngo-tro-lai-gom-co-phieu-trong-phien-cuoi-tuan-8-8-188250808172344158.chn "HTTP/2 200 OK"
+2025-08-12 05:19:02,260 - INFO - ⏩ Article already exists: Tự doanh CTCK bất ngờ trở lại "gom" cổ phiếu trong...
+2025-08-12 05:19:02,346 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fchung-khoan-giang-co-co-phieu-cong-ty-cam-do-chao-san-188250808162404941.chn "HTTP/2 200 OK"
+2025-08-12 05:19:02,347 - INFO - ⏩ Article already exists: Chứng khoán giằng co, cổ phiếu công ty 'cầm đồ' ch...
+2025-08-12 05:19:02,432 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=link&link=eq.https%3A%2F%2Fcafef.vn%2Fnam-thanh-nien-30-tuoi-cam-dau-duong-day-lua-dao-tien-ao-hon-2600-ty-dong-188250808151541619.chn "HTTP/2 200 OK"
+2025-08-12 05:19:02,432 - INFO - ⏩ Article already exists: Nam thanh niên 30 tuổi cầm đầu đường dây lừa đảo t...
+2025-08-12 05:19:02,433 - INFO - 🔒 Supabase connections are managed automatically
+2025-08-12 05:19:02,433 - INFO - [SUCCESS] CafeF General News hoàn thành trong 0:03:14.531911
+2025-08-12 05:19:04,434 - INFO - === CHUNGTA CRAWLER ===
+2025-08-12 05:19:04,434 - INFO - [START] Bắt đầu ChungTa News
+2025-08-12 05:19:04,890 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 05:19:57,134 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-bat-tay-thanh-vien-tap-doan-hang-khong-lon-nhat-nhat-ban-1140101.html "HTTP/2 200 OK"
+2025-08-12 05:19:57,308 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?on_conflict=link "HTTP/2 201 Created"
+2025-08-12 05:19:57,308 - INFO - ✅ Inserted article: FPT ‘bắt tay’ thành viên tập đoàn hàng không lớn n...
+2025-08-12 05:19:57,474 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fchu-tich-fpt-don-chiec-cup-danh-gia-nhat-chau-au-den-da-nang-1140099.html "HTTP/2 200 OK"
+2025-08-12 05:19:57,683 - INFO - HTTP Request: POST https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?on_conflict=link "HTTP/2 201 Created"
+2025-08-12 05:19:57,683 - INFO - ✅ Inserted article: Chủ tịch FPT đón chiếc cúp danh giá nhất châu Âu đ...
+2025-08-12 05:19:57,874 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Flan-dau-vuot-cac-ngan-hang-lon-fpt-dung-dau-top-50-cong-ty-dai-chung-uy-tin-va-hieu-qua-nhat-viet-nam-2025-1140095.html "HTTP/2 200 OK"
+2025-08-12 05:19:57,876 - INFO - ⏩ Article already exists: Lần đầu vượt các ngân hàng lớn, FPT đứng đầu Top 5...
+2025-08-12 05:19:58,027 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-la-don-vi-dau-tien-o-viet-nam-tich-hop-giai-phap-hoa-don-dien-tu-cua-sap-1140090.html "HTTP/2 200 OK"
+2025-08-12 05:19:58,043 - INFO - ⏩ Article already exists: FPT là đơn vị đầu tiên ở Việt Nam tích hợp giải ph...
+2025-08-12 05:19:58,211 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fanh-truong-gia-binh-nghi-quyet-68-trao-niem-tin-doanh-nghiep-tu-nhan-se-duoc-tin-tuong-1140088.html "HTTP/2 200 OK"
+2025-08-12 05:19:58,211 - INFO - ⏩ Article already exists: Anh Trương Gia Bình: ‘Nghị quyết 68 trao niềm tin ...
+2025-08-12 05:19:58,313 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fpho-thu-tuong-thuong-truc-chinh-phu-tham-du-an-to-hop-giao-duc-fpt-hue-1140072.html "HTTP/2 200 OK"
+2025-08-12 05:19:58,313 - INFO - ⏩ Article already exists: Phó Thủ tướng Thường trực Chính phủ thăm dự án Tổ ...
+2025-08-12 05:19:58,423 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fban-le-fpt-thang-hoa-long-chau-chu-dong-chan-hang-gia-fpt-shop-lan-san-dich-vu-tai-chinh-1140070.html "HTTP/2 200 OK"
+2025-08-12 05:19:58,423 - INFO - ⏩ Article already exists: Bán lẻ FPT thăng hoa: Long Châu chủ động chặn hàng...
+2025-08-12 05:19:58,592 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-thanh-doi-tac-quoc-te-dau-tien-cua-tap-doan-phan-mem-o-to-nhat-ban-1140064.html "HTTP/2 200 OK"
+2025-08-12 05:19:58,592 - INFO - ⏩ Article already exists: FPT thành đối tác quốc tế đầu tiên của tập đoàn ph...
+2025-08-12 05:19:58,760 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fanh-nguyen-van-khoa-fpt-san-sang-cung-khanh-hoa-giai-bai-toan-lon-cua-thoi-dai-so-1140055.html "HTTP/2 200 OK"
+2025-08-12 05:19:58,760 - INFO - ⏩ Article already exists: Anh Nguyễn Văn Khoa: 'FPT sẵn sàng cùng Khánh Hòa ...
+2025-08-12 05:19:58,862 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fchuyen-doi-so%2Fnguoi-fpt-can-tuan-thu-luat-bao-ve-du-lieu-ca-nhan-1140024.html "HTTP/2 200 OK"
+2025-08-12 05:19:58,862 - INFO - ⏩ Article already exists: Người FPT cần tuân thủ Luật bảo vệ dữ liệu cá nhân...
+2025-08-12 05:19:59,029 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fmade-by-fpt%2Fgiai-phap-cong-nghe-xanh-made-by-fpt-vertzero-noi-bat-tai-giai-thuong-sang-tao-tp-hcm-1139960.html "HTTP/2 200 OK"
+2025-08-12 05:19:59,029 - INFO - ⏩ Article already exists: Giải pháp công nghệ xanh Made by FPT - VertZéro nổ...
+2025-08-12 05:19:59,130 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-phat-hanh-hon-222-trieu-co-phieu-thuong-1140034.html "HTTP/2 200 OK"
+2025-08-12 05:19:59,130 - INFO - ⏩ Article already exists: FPT phát hành hơn 222 triệu cổ phiếu thưởng...
+2025-08-12 05:19:59,295 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-shop-tung-uu-dai-mua-sam-moi-cho-hoc-sinh-tan-sinh-vien-1140028.html "HTTP/2 200 OK"
+2025-08-12 05:19:59,295 - INFO - ⏩ Article already exists: FPT Shop tung ưu đãi mua sắm mới cho học sinh, tân...
+2025-08-12 05:19:59,396 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2F6-thang-fpt-thang-12-du-an-quy-mo-hon-10-trieu-usd-du-an-1140027.html "HTTP/2 200 OK"
+2025-08-12 05:19:59,396 - INFO - ⏩ Article already exists: 6 tháng, FPT thắng 12 dự án quy mô hơn 10 triệu US...
+2025-08-12 05:19:59,502 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-bien-hoa-1-000-quang-cao-ooh-theo-dac-trung-tung-tinh-1140021.html "HTTP/2 200 OK"
+2025-08-12 05:19:59,504 - INFO - ⏩ Article already exists: FPT biến hóa 1.000 quảng cáo OOH theo đặc trưng từ...
+2025-08-12 05:19:59,595 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-bat-tay-vietinbank-tang-mien-phi-tron-doi-ung-dung-quan-ly-ban-hang-tren-dien-thoai-1140013.html "HTTP/2 200 OK"
+2025-08-12 05:19:59,595 - INFO - ⏩ Article already exists: FPT ‘bắt tay’ VietinBank tặng miễn phí trọn đời ứn...
+2025-08-12 05:19:59,694 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fbo-khoa-hoc-va-cong-nghe-vinh-danh-fpt-trong-trien-khai-mo-hinh-chinh-quyen-2-cap-1140011.html "HTTP/2 200 OK"
+2025-08-12 05:19:59,695 - INFO - ⏩ Article already exists: Bộ Khoa học và Công nghệ vinh danh FPT trong triển...
+2025-08-12 05:19:59,779 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fvien-thong-fpt-so-hoa-kenh-khach-hang-bao-loi-1140010.html "HTTP/2 200 OK"
+2025-08-12 05:19:59,779 - INFO - ⏩ Article already exists: Viễn thông FPT số hóa kênh khách hàng báo lỗi...
+2025-08-12 05:19:59,959 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fgianh-cu-dup-giai-thuong-fpt-is-but-pha-top-2-thi-dua-loi-suat-doi-2025-1140006.html "HTTP/2 200 OK"
+2025-08-12 05:19:59,959 - INFO - ⏩ Article already exists: Giành cú đúp giải thưởng, FPT IS bứt phá Top 2 thi...
+2025-08-12 05:20:00,062 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-ap-dung-xac-thuc-nhan-vien-bang-ma-qr-tren-toan-quoc-1140004.html "HTTP/2 200 OK"
+2025-08-12 05:20:00,062 - INFO - ⏩ Article already exists: FPT áp dụng xác thực nhân viên bằng mã QR trên toà...
+2025-08-12 05:20:00,162 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-play-doc-quyen-giai-u23-dong-nam-a-tai-viet-nam-1139996.html "HTTP/2 200 OK"
+2025-08-12 05:20:00,162 - INFO - ⏩ Article already exists: FPT Play độc quyền giải U23 Đông Nam Á tại Việt Na...
+2025-08-12 05:20:00,246 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fsendo-farm-ra-pho-voi-sieu-thi-online-tren-metro-tp-hcm-1139994.html "HTTP/2 200 OK"
+2025-08-12 05:20:00,246 - INFO - ⏩ Article already exists: Sendo Farm ‘ra phố’ với siêu thị online trên Metro...
+2025-08-12 05:20:00,361 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-ra-mat-ung-dung-di-dong-quan-ly-ban-hang-biznext-danh-cho-ho-kinh-doanh-1139984.html "HTTP/2 200 OK"
+2025-08-12 05:20:00,362 - INFO - ⏩ Article already exists: FPT ra mắt ứng dụng di động quản lý bán hàng BizNe...
+2025-08-12 05:20:00,447 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fchuong-trinh-mba-truong-dai-hoc-fpt-dat-kiem-dinh-quoc-te-acbsp-1139973.html "HTTP/2 200 OK"
+2025-08-12 05:20:00,447 - INFO - ⏩ Article already exists: Chương trình MBA Trường Đại học FPT đạt kiểm định ...
+2025-08-12 05:20:00,545 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fbsc-khuyen-nghi-mua-doi-voi-co-phieu-fpt-1139972.html "HTTP/2 200 OK"
+2025-08-12 05:20:00,545 - INFO - ⏩ Article already exists: BSC khuyến nghị mua đối với cổ phiếu FPT...
+2025-08-12 05:20:00,658 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fsendo-farm-viral-khap-coi-mang-voi-chuoi-livestream-tram-tan-vai-thieu-1139963.html "HTTP/2 200 OK"
+2025-08-12 05:20:00,660 - INFO - ⏩ Article already exists: Sendo Farm ‘viral khắp cõi mạng’ với chuỗi livestr...
+2025-08-12 05:20:00,746 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-va-cong-ty-do-standard-chartered-dau-tu-ky-hop-tac-quy-mo-100-trieu-usd-trong-3-nam-1139961.html "HTTP/2 200 OK"
+2025-08-12 05:20:00,746 - INFO - ⏩ Article already exists: FPT và công ty do Standard Chartered đầu tư ký hợp...
+2025-08-12 05:20:00,850 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-duoc-vinh-danh-tai-le-ky-niem-20-nam-thanh-lap-so-giao-dich-chung-khoan-ha-noi-1139946.html "HTTP/2 200 OK"
+2025-08-12 05:20:00,851 - INFO - ⏩ Article already exists: FPT được vinh danh tại lễ kỷ niệm 20 năm thành lập...
+2025-08-12 05:20:00,945 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Flanh-dao-bac-giang-livestream-cung-sendo-farm-quang-ba-vai-thieu-luc-ngan-1139945.html "HTTP/2 200 OK"
+2025-08-12 05:20:00,945 - INFO - ⏩ Article already exists: Lãnh đạo Bắc Giang livestream cùng Sendo Farm quản...
+2025-08-12 05:20:01,044 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ftechcombank-bat-tay-2-don-vi-fpt-mang-giai-phap-tai-chinh-toan-dien-1139942.html "HTTP/2 200 OK"
+2025-08-12 05:20:01,044 - INFO - ⏩ Article already exists: Techcombank bắt tay 2 đơn vị FPT mang giải pháp tà...
+2025-08-12 05:20:01,225 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fpho-thu-tuong-mai-van-chinh-du-le-khoi-cong-to-hop-giao-duc-fpt-tai-binh-duong-1139921.html "HTTP/2 200 OK"
+2025-08-12 05:20:01,225 - INFO - ⏩ Article already exists: Phó Thủ tướng Mai Văn Chính dự lễ khởi công Tổ hợp...
+2025-08-12 05:20:01,313 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ftruong-dh-fpt-hang-cao-nhat-nhom-dai-hoc-viet-nam-trong-bang-tam-anh-huong-1139916.html "HTTP/2 200 OK"
+2025-08-12 05:20:01,313 - INFO - ⏩ Article already exists: Trường ĐH FPT hạng cao nhất nhóm đại học Việt Nam ...
+2025-08-12 05:20:01,427 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-tang-25-bac-trong-bang-xep-hang-top-500-cong-ty-lon-nhat-dong-nam-a-1139914.html "HTTP/2 200 OK"
+2025-08-12 05:20:01,427 - INFO - ⏩ Article already exists: FPT tăng 25 bậc trong bảng xếp hạng Top 500 công t...
+2025-08-12 05:20:01,522 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fkhoi-ngoai-mua-rong-hon-300-ty-ngay-co-phieu-fpt-tang-manh-nhat-trong-1-thang-1139912.html "HTTP/2 200 OK"
+2025-08-12 05:20:01,523 - INFO - ⏩ Article already exists: Khối ngoại mua ròng hơn 300 tỷ/ngày, cổ phiếu FPT ...
+2025-08-12 05:20:01,612 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-bat-tay-bappenas-hien-thuc-hoa-tam-nhin-the-he-vang-indonesia-1139900.html "HTTP/2 200 OK"
+2025-08-12 05:20:01,612 - INFO - ⏩ Article already exists: FPT bắt tay Bappenas hiện thực hóa tầm nhìn 'Thế h...
+2025-08-12 05:20:01,711 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fbo-cong-an-va-fpt-thuc-day-hop-tac-phat-trien-ai-phuc-vu-quoc-gia-so-1139897.html "HTTP/2 200 OK"
+2025-08-12 05:20:01,711 - INFO - ⏩ Article already exists: Bộ Công an và FPT thúc đẩy hợp tác phát triển AI p...
+2025-08-12 05:20:01,818 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-san-thanh-cong-du-an-dau-tien-voi-ga-khong-lo-han-quoc-1139895.html "HTTP/2 200 OK"
+2025-08-12 05:20:01,819 - INFO - ⏩ Article already exists: FPT ‘săn’ thành công dự án đầu tiên với ‘gã khổng ...
+2025-08-12 05:20:01,919 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-tro-thanh-doi-tac-cong-nghe-chien-luoc-toan-cau-cua-airbus-1139894.html "HTTP/2 200 OK"
+2025-08-12 05:20:01,919 - INFO - ⏩ Article already exists: FPT trở thành đối tác công nghệ chiến lược toàn cầ...
+2025-08-12 05:20:02,012 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fvuot-vietcombank-fpt-lan-dau-top-1-cong-ty-dai-chung-uy-tin-nhat-viet-nam-2025-1139893.html "HTTP/2 200 OK"
+2025-08-12 05:20:02,012 - INFO - ⏩ Article already exists: Vượt Vietcombank, FPT lần đầu Top 1 công ty đại ch...
+2025-08-12 05:20:02,111 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fsynnex-fpt-lan-dau-co-diem-duong-dua-loi-suat-doi-2025-1139888.html "HTTP/2 200 OK"
+2025-08-12 05:20:02,111 - INFO - ⏩ Article already exists: Synnex FPT lần đầu có điểm đường đua Lợi - Suất - ...
+2025-08-12 05:20:02,212 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-du-chi-1-481-ty-dong-tra-co-tuc-con-lai-nam-2024-1139885.html "HTTP/2 200 OK"
+2025-08-12 05:20:02,212 - INFO - ⏩ Article already exists: FPT dự chi 1.481 tỷ đồng trả cổ tức còn lại năm 20...
+2025-08-12 05:20:02,311 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-duoc-vinh-danh-doanh-nghiep-asean-co-quan-tri-cong-ty-suat-sac-1139882.html "HTTP/2 200 OK"
+2025-08-12 05:20:02,311 - INFO - ⏩ Article already exists: FPT được vinh danh doanh nghiệp ASEAN có Quản trị ...
+2025-08-12 05:20:02,490 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fceo-landingai-dich-vu-tu-fpt-ai-factory-giup-nang-cao-hieu-qua-van-hanh-va-toi-uu-chi-phi-1139872.html "HTTP/2 200 OK"
+2025-08-12 05:20:02,490 - INFO - ⏩ Article already exists: CEO LandingAI: ‘Dịch vụ từ FPT AI Factory giúp nân...
+2025-08-12 05:20:02,582 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-bat-tay-ong-lon-an-ninh-mang-israel-1139870.html "HTTP/2 200 OK"
+2025-08-12 05:20:02,583 - INFO - ⏩ Article already exists: FPT bắt tay 'ông lớn' an ninh mạng Israel...
+2025-08-12 05:20:02,678 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fbo-truong-tu-phap-lam-viec-voi-chu-tich-va-ceo-fpt-1139869.html "HTTP/2 200 OK"
+2025-08-12 05:20:02,678 - INFO - ⏩ Article already exists: Bộ trưởng Tư pháp làm việc với Chủ tịch và CEO FPT...
+2025-08-12 05:20:02,763 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-khoi-cong-xay-truong-pho-thong-lien-cap-fpt-soc-trang-nen-tang-dao-tao-the-he-ky-su-57-1139860.html "HTTP/2 200 OK"
+2025-08-12 05:20:02,763 - INFO - ⏩ Article already exists: FPT khởi công xây Trường Phổ thông liên cấp FPT Só...
+2025-08-12 05:20:02,878 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-tro-thanh-doi-tac-chien-luoc-cua-tap-doan-cong-nghe-oki-nhat-ban-1139858.html "HTTP/2 200 OK"
+2025-08-12 05:20:02,878 - INFO - ⏩ Article already exists: FPT trở thành đối tác chiến lược của tập đoàn công...
+2025-08-12 05:20:02,982 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-gioi-thieu-voi-thu-tuong-he-sinh-thai-giai-phap-cho-nganh-ngan-hang-1139857.html "HTTP/2 200 OK"
+2025-08-12 05:20:02,986 - INFO - ⏩ Article already exists: FPT giới thiệu với Thủ tướng hệ sinh thái giải phá...
+2025-08-12 05:20:03,078 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-to-chuc-va-cung-cap-duong-truyen-chinh-thuc-chung-ket-giai-dau-lcp-finals-2025-1139856.html "HTTP/2 200 OK"
+2025-08-12 05:20:03,078 - INFO - ⏩ Article already exists: FPT tổ chức và cung cấp đường truyền chính thức Ch...
+2025-08-12 05:20:03,166 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ftong-cong-ty-tan-cang-sai-gon-khoi-dong-chuyen-doi-so-toan-dien-1139852.html "HTTP/2 200 OK"
+2025-08-12 05:20:03,166 - INFO - ⏩ Article already exists: Tổng Công ty Tân Cảng Sài Gòn khởi động chuyển đổi...
+2025-08-12 05:20:03,262 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fchu-tich-fpt-de-xuat-chien-luoc-dong-hien-dien-voi-cac-doanh-nghiep-phap-1139844.html "HTTP/2 200 OK"
+2025-08-12 05:20:03,262 - INFO - ⏩ Article already exists: Chủ tịch FPT đề xuất chiến lược 'đồng hiện diện' v...
+2025-08-12 05:20:03,393 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-mang-tu-duy-ai-first-den-petrosetco-1139843.html "HTTP/2 200 OK"
+2025-08-12 05:20:03,393 - INFO - ⏩ Article already exists: FPT mang tư duy AI-First đến Petrosetco...
+2025-08-12 05:20:03,501 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fvietnam-airlines-va-fpt-tang-cuong-hop-tac-chien-luoc-toan-dien-1139833.html "HTTP/2 200 OK"
+2025-08-12 05:20:03,511 - INFO - ⏩ Article already exists: Vietnam Airlines và FPT tăng cường hợp tác chiến l...
+2025-08-12 05:20:03,595 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-play-so-huu-ban-quyen-phat-song-fifa-club-world-cup-2025-1139831.html "HTTP/2 200 OK"
+2025-08-12 05:20:03,595 - INFO - ⏩ Article already exists: FPT Play sở hữu bản quyền phát sóng FIFA Club Worl...
+2025-08-12 05:20:03,702 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fhai-don-vi-fpt-bat-tay-dua-ai-agent-vao-ngan-hang-lon-o-viet-nam-1139816.html "HTTP/2 200 OK"
+2025-08-12 05:20:03,703 - INFO - ⏩ Article already exists: Hai đơn vị FPT bắt tay đưa AI Agent vào ngân hàng ...
+2025-08-12 05:20:03,796 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fthu-truong-bo-cong-thuong-danh-gia-cao-dong-gop-cua-fpt-tai-bangladesh-1139823.html "HTTP/2 200 OK"
+2025-08-12 05:20:03,796 - INFO - ⏩ Article already exists: Thứ trưởng Bộ Công Thương đánh giá cao đóng góp củ...
+2025-08-12 05:20:03,895 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-lan-dau-lot-top-40-doanh-nghiep-cntt-chau-a-1139820.html "HTTP/2 200 OK"
+2025-08-12 05:20:03,895 - INFO - ⏩ Article already exists: FPT lần đầu lọt Top 40 doanh nghiệp CNTT châu Á...
+2025-08-12 05:20:04,060 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-hop-tac-voi-dai-hoc-ung-dung-lon-nhat-phan-lan-dao-tao-nganh-it-tai-viet-nam-1139808.html "HTTP/2 200 OK"
+2025-08-12 05:20:04,076 - INFO - ⏩ Article already exists: FPT hợp tác với đại học ứng dụng lớn nhất Phần Lan...
+2025-08-12 05:20:04,166 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fviolympic-quoc-gia-2025-san-choi-tri-tue-quy-mo-lan-toa-khat-vong-so-1139807.html "HTTP/2 200 OK"
+2025-08-12 05:20:04,166 - INFO - ⏩ Article already exists: Violympic Quốc gia 2025: Sân chơi trí tuệ quy mô, ...
+2025-08-12 05:20:04,262 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-bat-tay-hai-ong-lon-cong-nghe-thai-lan-thuc-day-chuyen-doi-so-nganh-tai-chinh-ban-le-1139805.html "HTTP/2 200 OK"
+2025-08-12 05:20:04,262 - INFO - ⏩ Article already exists: FPT bắt tay hai 'ông lớn' công nghệ Thái Lan, thúc...
+2025-08-12 05:20:04,362 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fchu-tich-truong-gia-binh-lien-minh-la-con-duong-song-con-trong-mot-the-gioi-day-bien-dong-1139800.html "HTTP/2 200 OK"
+2025-08-12 05:20:04,362 - INFO - ⏩ Article already exists: Chủ tịch Trương Gia Bình: 'Liên minh là con đường ...
+2025-08-12 05:20:04,449 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fkhanh-hoa-van-hanh-ioc-do-fpt-la-doi-tac-cong-nghe-1139794.html "HTTP/2 200 OK"
+2025-08-12 05:20:04,449 - INFO - ⏩ Article already exists: Khánh Hòa vận hành IOC do FPT là đối tác công nghệ...
+2025-08-12 05:20:04,558 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fnha-truc-tuyen-fpt-doc-chiem-giai-thuong-kinh-doanh-thang-4-1139785.html "HTTP/2 200 OK"
+2025-08-12 05:20:04,559 - INFO - ⏩ Article already exists: Nhà Trực tuyến FPT độc chiếm giải thưởng Kinh doan...
+2025-08-12 05:20:04,645 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fcto-vu-anh-tu-fpt-gop-hon-60-tong-gia-tri-xuat-khau-phan-mem-cua-da-nang-1139784.html "HTTP/2 200 OK"
+2025-08-12 05:20:04,645 - INFO - ⏩ Article already exists: CTO Vũ Anh Tú: ‘FPT góp hơn 60% tổng giá trị xuất ...
+2025-08-12 05:20:04,746 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Ffpt-dau-tu-vao-navisoft-1139772.html "HTTP/2 200 OK"
+2025-08-12 05:20:04,746 - INFO - ⏩ Article already exists: FPT đầu tư vào Navisoft...
+2025-08-12 05:20:04,841 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Flongform%2Flon-len-trong-tieng-vong-hoa-binh-1139763.html "HTTP/2 200 OK"
+2025-08-12 05:20:04,844 - INFO - ⏩ Article already exists: Lớn lên trong tiếng vọng hoà bình...
+2025-08-12 05:20:04,943 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fvi-cong-dong%2Fdieu-dieu-ky-mang-ten-dong-doi-fpt-1139730.html "HTTP/2 200 OK"
+2025-08-12 05:20:04,944 - INFO - ⏩ Article already exists: Điều diệu kỳ mang tên Đồng đội FPT...
+2025-08-12 05:20:05,027 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fnguoi-fpt%2Fanh-truong-gia-binh-chung-ta-di-len-bang-suc-manh-cong-nghe-1139718.html "HTTP/2 200 OK"
+2025-08-12 05:20:05,027 - INFO - ⏩ Article already exists: Anh Trương Gia Bình: 'Chúng ta đi lên bằng sức mạn...
+2025-08-12 05:20:05,128 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=link&link=eq.https%3A%2F%2Fchungta.vn%2Fkinh-doanh%2Fceo-fpt-tang-truong-20-rat-thach-thuc-chung-toi-khong-chu-quan-1139719.html "HTTP/2 200 OK"
+2025-08-12 05:20:05,128 - INFO - ⏩ Article already exists: CEO FPT: 'Tăng trưởng 20% rất thách thức, chúng tô...
+2025-08-12 05:20:28,320 - WARNING - Nguoi dung dung crawling session
+2025-08-12 05:20:28,322 - INFO - 
+============================================================
+2025-08-12 05:20:28,322 - INFO - TONG KET CRAWLING SESSION
+2025-08-12 05:20:28,323 - INFO - ============================================================
+2025-08-12 05:20:28,323 - INFO - Tong thoi gian: 0:21:57.775525
+2025-08-12 05:20:28,323 - INFO - Thanh cong: 7
+2025-08-12 05:20:28,323 - INFO - That bai: 1
+2025-08-12 05:20:28,323 - INFO - Tong crawler: 9
+2025-08-12 05:20:28,323 - INFO - 
+Chi tiet tung crawler:
+2025-08-12 05:20:28,323 - INFO - [OK] Stock Price Crawler: 0:01:53.999805
+2025-08-12 05:20:28,323 - INFO - [OK] FireAnt FPT Stock: 0:00:17.608773
+2025-08-12 05:20:28,323 - INFO - [OK] FireAnt GAS Stock: 0:00:17.804397
+2025-08-12 05:20:28,323 - INFO - [OK] FireAnt IMP Stock: 0:00:19.422445
+2025-08-12 05:20:28,323 - INFO - [OK] FireAnt VCB Stock: 0:00:19.384861
+2025-08-12 05:20:28,323 - INFO - [OK] FireAnt General News: 0:00:18.739744
+2025-08-12 05:20:28,327 - INFO - [FAIL] CafeF Keyword Search: 0:13:46.391644
+2025-08-12 05:20:28,327 - INFO -    Loi: HTTPConnectionPool(host='localhost', port=58430): Read timed out. (read timeout=120)
+2025-08-12 05:20:28,327 - INFO - [OK] CafeF General News: 0:03:14.531911
+2025-08-12 05:20:28,328 - INFO - [FAIL] ChungTa News: N/A
+2025-08-12 05:20:28,328 - INFO - ✅ Crawling phase completed in 22.0 minutes
+2025-08-12 05:20:28,328 - INFO - ⏸️ Waiting 10 seconds between phases...
+2025-08-12 05:20:38,329 - INFO - 
+🤖 PHASE 2: AI SUMMARIZATION
+2025-08-12 05:20:38,329 - INFO - ==================================================
+2025-08-12 05:20:43,573 - INFO - ✅ Supabase client initialized successfully
+2025-08-12 05:20:43,573 - INFO - Enhanced Summarization Pipeline initialized
+2025-08-12 05:20:43,573 - INFO - DATABASE STATISTICS
+2025-08-12 05:20:43,573 - INFO - ==================================================
+2025-08-12 05:20:44,748 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:45,514 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:46,351 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=%2A&industry=not.is.null&industry=neq.&ai_summary=not.is.null&ai_summary=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:47,169 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:47,702 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:48,229 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:48,426 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:48,665 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:48,846 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:49,137 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:49,408 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:49,517 - INFO - 1. FPT_News: 452/461 (98.0%) | 9 pending
+2025-08-12 05:20:49,517 - INFO -    ETA: 1.6min
+2025-08-12 05:20:49,517 - INFO - 2. GAS_News: 74/75 (98.7%) | 1 pending
+2025-08-12 05:20:49,517 - INFO -    ETA: 0.2min
+2025-08-12 05:20:49,517 - INFO - 3. General_News: 988/990 (99.8%) | 2 pending
+2025-08-12 05:20:49,517 - INFO -    ETA: 0.4min
+2025-08-12 05:20:49,517 - INFO - 4. IMP_News: 32/32 (100.0%) | DONE
+2025-08-12 05:20:49,517 - INFO - 5. VCB_News: 105/105 (100.0%) | DONE
+2025-08-12 05:20:49,517 - INFO - ==================================================
+2025-08-12 05:20:49,517 - INFO - OVERALL: 1651/1663 articles completed (99.3%)
+2025-08-12 05:20:49,517 - INFO - REMAINING: 12 articles | Total ETA: 2.2 minutes
+2025-08-12 05:20:49,517 - INFO - ==================================================
+2025-08-12 05:20:49,517 - INFO - 🎯 Processing all tables by priority (default)
+2025-08-12 05:20:49,530 - INFO - 🎯 Starting priority-based processing pipeline...
+2025-08-12 05:20:49,767 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:50,498 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:51,278 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=%2A&industry=not.is.null&industry=neq.&ai_summary=not.is.null&ai_summary=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:51,868 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:52,325 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:52,728 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:52,959 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:53,133 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:53,320 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:53,474 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:53,766 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:53,881 - INFO - ��������������������
+2025-08-12 05:20:53,882 - INFO - 📋 PRIORITY PROCESSING QUEUE: 3 tables
+2025-08-12 05:20:53,882 - INFO - 📊 Total articles to process: 12
+2025-08-12 05:20:53,883 - INFO - ⏱️ Estimated total time: 2.2 minutes
+2025-08-12 05:20:53,883 - INFO - 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+2025-08-12 05:20:53,883 - INFO - 1. 🎯 FPT_News: 9/461 articles (98.0% done) - ETA: 1.6min
+2025-08-12 05:20:53,883 - INFO - 2. 🎯 GAS_News: 1/75 articles (98.7% done) - ETA: 0.2min
+2025-08-12 05:20:53,883 - INFO - 3. 🎯 General_News: 2/990 articles (99.8% done) - ETA: 0.4min
+2025-08-12 05:20:53,883 - INFO - 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+2025-08-12 05:20:53,883 - INFO - 
+🚀 TABLE 1/3: FPT_News
+2025-08-12 05:20:53,883 - INFO - 📊 Queue status: 9 articles remaining
+2025-08-12 05:20:53,883 - INFO - 🔄 Starting processing...
+2025-08-12 05:20:53,883 - INFO - Processing specific table: FPT_News
+2025-08-12 05:20:53,888 - INFO - Loading AI model...
+2025-08-12 05:20:53,888 - ERROR - Error in priority processing: Missing model files: ['config.json', 'model.safetensors', 'tokenizer_config.json', 'spiece.model']
+2025-08-12 05:20:53,889 - ERROR - ❌ Summarization phase failed: Missing model files: ['config.json', 'model.safetensors', 'tokenizer_config.json', 'spiece.model']
+2025-08-12 05:20:53,889 - ERROR - 💥 Pipeline failed with error: Missing model files: ['config.json', 'model.safetensors', 'tokenizer_config.json', 'spiece.model']
+2025-08-12 05:20:53,889 - INFO - 
+================================================================================
+2025-08-12 05:20:53,889 - INFO - 📋 PIPELINE EXECUTION SUMMARY
+2025-08-12 05:20:53,890 - INFO - ================================================================================
+2025-08-12 05:20:53,890 - INFO - ⏱️ Total execution time: 22.4 minutes
+2025-08-12 05:20:53,890 - INFO - 
+2025-08-12 05:20:53,890 - INFO - 🗞️ CRAWLING PHASE: ✅ SUCCESS (22.0 min)
+2025-08-12 05:20:53,890 - INFO -    📊 Successful crawlers: 1/1
+2025-08-12 05:20:53,891 - INFO - 🤖 SUMMARIZATION PHASE: ❌ FAILED (0.3 min)
+2025-08-12 05:20:53,891 - INFO - 
+2025-08-12 05:20:53,891 - INFO - 🎯 FINAL STATUS:
+2025-08-12 05:20:53,891 - INFO - 
+================================================================================
+2025-08-12 05:20:53,891 - INFO - 📊 SPA VIP SYSTEM STATUS
+2025-08-12 05:20:53,891 - INFO - ================================================================================
+2025-08-12 05:20:54,295 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:55,048 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:55,792 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/General_News?select=%2A&industry=not.is.null&industry=neq.&ai_summary=not.is.null&ai_summary=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:56,472 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:57,010 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/FPT_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:57,479 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:57,803 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/GAS_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:57,996 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:58,212 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/IMP_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:58,477 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_News?select=%2A&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:58,745 - INFO - HTTP Request: GET https://ebpnoasjxttbrdmiwesg.supabase.co/rest/v1/VCB_News?select=%2A&ai_summary=not.is.null&ai_summary=neq.&content=neq. "HTTP/2 200 OK"
+2025-08-12 05:20:58,870 - INFO - 📰 Total Articles: 1,663
+2025-08-12 05:20:58,872 - INFO - 🤖 AI Summarized: 1,651
+2025-08-12 05:20:58,872 - INFO - 🏭 Industry Classified: 988
+2025-08-12 05:20:58,872 - INFO - ⏳ Pending Summary: 12
+2025-08-12 05:20:58,872 - INFO - ⏳ Pending Classification: 0
+2025-08-12 05:20:58,872 - INFO - 📈 Summary Rate: 99.3%
+2025-08-12 05:20:58,872 - INFO - 🏭 Classification Rate: 59.8%
+2025-08-12 05:20:58,873 - INFO - 
+2025-08-12 05:20:58,873 - INFO - 📋 TABLE BREAKDOWN:
+2025-08-12 05:20:58,874 - INFO - --------------------------------------------------------------------------------
+2025-08-12 05:20:58,874 - INFO - Table           Total    Summary  Industry   S-Rate   I-Rate  
+2025-08-12 05:20:58,874 - INFO - --------------------------------------------------------------------------------
+2025-08-12 05:20:58,874 - INFO - General_News    990      988      988        99.8%    100.0%
+2025-08-12 05:20:58,875 - INFO - FPT_News        461      452      0          98.0%    0.0%
+2025-08-12 05:20:58,875 - INFO - GAS_News        75       74       0          98.7%    0.0%
+2025-08-12 05:20:58,875 - INFO - IMP_News        32       32       0          100.0%    0.0%
+2025-08-12 05:20:58,875 - INFO - VCB_News        105      105      0          100.0%    0.0%
+2025-08-12 05:20:58,876 - INFO - ================================================================================
+2025-08-12 05:20:58,876 - INFO - 
+🎉 PIPELINE EXECUTION COMPLETED!
+2025-08-12 05:20:58,876 - INFO - ================================================================================
+2025-08-12 05:20:58,876 - ERROR - 💥 System error: Missing model files: ['config.json', 'model.safetensors', 'tokenizer_config.json', 'spiece.model']
